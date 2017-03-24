@@ -15,6 +15,7 @@
 #        ['slashdot','UK','no',21,'None'],
 #        ['google','UK','yes',18,'Basic'],
 #        ['kiwitobes','France','yes',19,'Basic']]
+import random
 def isfloat(value):
   try:
     float(value)
@@ -29,27 +30,62 @@ def isint(value):
   except:
     return False
   
+
 train_data=[]
-for line in file('iristraining.txt'):
-  srt=line.split(',')
-  for count in range(0,len(srt)):
-    if(isfloat(srt[count])):
-      srt[count]=float(srt[count])
-    else :
-      srt[count]=srt[count].strip('\n')
-  train_data=train_data+[srt];
-
 test_data=[]
-for line in file('iristest.txt'):
-  srt=line.split(',')
-  for count in range(0,len(srt)):
-    if(isfloat(srt[count])):
-      srt[count]=float(srt[count])
-    else :
-      srt[count]=srt[count].strip('\n')
-  test_data=test_data+[srt];
+def aprifile(fil="nomefile.txt"):
+  data=[]
+  for line in file(fil):
+    srt=line.split(',')
+    for count in range(0,len(srt)):
+      if(isfloat(srt[count])):
+        srt[count]=float(srt[count])
+      else :
+        srt[count]=srt[count].strip('\n')
+    data=data+[srt];
+  return data
 
+#train_data=aprifile('iristraining 40%.txtaggiunta.txt')
+#test_data=aprifile('iristest 60%.txtaggiunta.txt')
+d=aprifile('mushroom.txt')
 
+def createdataset(data,numdati): #aggiunta
+  #print nelement
+  tr=[]
+  te=[]
+  t=[]
+  for i in range(0,numdati):
+    t=random.choice(data);
+    tr=tr+[t]
+    num=data.index(t)
+    del data[num]
+  v=len(data)-numdati
+  f=open(str(v)+"%train.txt","w")
+  for row in tr:
+    f.write("%s\n" % row)
+  f.close();
+  #for dato in data:
+   # if dato not in tr:
+    #  if dato
+     # print dato
+  te=data
+  f1=open(str(v)+"%test.txt","w")
+  for row in te:
+    f1.write("%s\n" %row)
+  f1.close();
+  return(tr,te)
+
+def mettivirgola(fil="nomefile.txt"):
+  l=""
+  f1=open(fil+"aggiunta.txt","a")
+  with open(fil,"r") as f:
+    for line in f:
+      line=line.replace('[','')
+      line=line.replace(']','')
+      line=line.replace("'","")
+      line=line.strip(' ')
+      f1.write(line)
+      
 class decisionnode:
   def __init__(self,col=-1,value=None,results=None,tb=None,fb=None):
     self.col=col #colonna del criterio da testare
@@ -92,7 +128,7 @@ def uniquecounts(rows): #questa funzione mi permette di capire quando risultati 
 
 # Probability that a randomly placed item will
 # be in the wrong category
-def giniimpurity(rows): #mi dice la purezza del set, se gli oggetti sono tutti omogenei
+def giniimpurity(rows): #mi dice la impurita del set, se gli oggetti sono tutti omogenei
   #allora non ho possibilità d' errore, altrimenti se invece ho due possibili risultati
   # set l' impurità e del 50% (con set di 2 elementi), in altri termini vede la probabili
   #tà con cui cade un evento nel set poi la va a moltiplicare per le altre probabilità
@@ -158,7 +194,7 @@ def drawtree(tree,jpeg='tree.jpg'):
   draw=ImageDraw.Draw(img)
 
   drawnode(draw,tree,w/2,20)
-  img.save(jpeg,'JPEG')
+  img.save(jpeg,format="JPEG", quality=80,progessive=True)
   
 def drawnode(draw,tree,x,y):
   if tree.results==None:
@@ -182,21 +218,47 @@ def drawnode(draw,tree,x,y):
     drawnode(draw,tree.tb,right-w2/2,y+100)
   else:
     txt=' \n'.join(['%s:%d'%v for v in tree.results.items()])
-    draw.text((x-20,y),txt,(0,0,0))
+    draw.text((x-50,y),txt,(0,0,0))
 
-def performance(tree):
-  p=[]
-  for row in test_data:
+import matplotlib.pyplot as plt
+def performance(tree,test): #aggiunta
+  #t=[]
+  #f=[]
+  t=0
+  for row in test:
     #if(isint(classify(row,tree))):
     results=classify(row,tree)
     for r in results:
+      #print results
       if r==row[len(row)-1]:
-        p=p+['true']
-      else:
-       p=p+['false']
-  return p
+        t=t+1
+        #t=t+['true']
+      #else:
+        #f=f+['false']
+  percent=float(t)/len(test)
+  print len(test)
+  #print len(test)
+  return percent
 
-def classify(observation,tree):
+def fperformance(data): #aggiunta
+  testc=data
+  percent=10
+  p=[]
+  perc=[]
+  numdati=(int)((float)(len(testc))/100*percent);
+  for i in range(0,5):
+    (train,testc)=createdataset(testc,numdati)
+    tree=buildtree(train)
+    p=p+[performance(tree,testc)]
+    perc=perc+[percent]
+    percent=percent+10;
+  line,=plt.plot(perc,p,'r-')
+  plt.xlabel('percentuale dati training')
+  plt.ylabel('percentuale successi')
+  line.set_antialiased(False)
+  plt.show()
+  
+def classify(observation,tree): #dato in pasto un albero e' un esempio ci restituisce la classificazione
   if tree.results!=None:
     return tree.results
   else:
@@ -268,7 +330,7 @@ def variance(rows):
 
 def buildtree(rows,scoref=entropy):
   if len(rows)==0: return decisionnode()
-  current_score=scoref(rows)#scoref in realtà è la funzione dell' entropia
+  current_score=scoref(rows) #scoref in realtà è la funzione dell' entropia
 
   # Set up some variables to track the best criteria
   best_gain=0.0
@@ -281,14 +343,13 @@ def buildtree(rows,scoref=entropy):
     # this column
     column_values={}
     for row in rows:
-       column_values[row[col]]=1
+       column_values[row[col]]=1 #colonna di tutti i possibili valori
     # Now try dividing the rows up for each value
     # in this column
-    for value in column_values.keys():
+    for value in column_values.keys(): #
       #per ogni valore nelle colonne che gli diamo lo divide in due set quello che rispe
       #tta il criterio e quello no
       (set1,set2)=divideset(rows,col,value)
-      
       # Information gain
       p=float(len(set1))/len(rows) #calcola la propabilità che capiti un risultato vero
       gain=current_score-p*scoref(set1)-(1-p)*scoref(set2)
@@ -308,4 +369,4 @@ def buildtree(rows,scoref=entropy):
     return decisionnode(col=best_criteria[0],value=best_criteria[1],
                         tb=trueBranch,fb=falseBranch)
   else:
-    return decisionnode(results=uniquecounts(rows))
+    return decisionnode(results=uniquecounts(rows)

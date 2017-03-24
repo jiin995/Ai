@@ -45,11 +45,11 @@ def aprifile(fil="nomefile.txt"):
     data=data+[srt];
   return data
 
-train_data=aprifile('iristraining 40%.txtaggiunta.txt')
-test_data=aprifile('iristest 60%.txtaggiunta.txt')
+#train_data=aprifile('iristraining 40%.txtaggiunta.txt')
+#test_data=aprifile('iristest 60%.txtaggiunta.txt')
 d=aprifile('mushroom.txt')
 
-def createdataset(data,numdati):
+def createdataset(data,numdati): #aggiunta
   #print nelement
   tr=[]
   te=[]
@@ -128,7 +128,7 @@ def uniquecounts(rows): #questa funzione mi permette di capire quando risultati 
 
 # Probability that a randomly placed item will
 # be in the wrong category
-def giniimpurity(rows): #mi dice la purezza del set, se gli oggetti sono tutti omogenei
+def giniimpurity(rows): #mi dice la impurita del set, se gli oggetti sono tutti omogenei
   #allora non ho possibilità d' errore, altrimenti se invece ho due possibili risultati
   # set l' impurità e del 50% (con set di 2 elementi), in altri termini vede la probabili
   #tà con cui cade un evento nel set poi la va a moltiplicare per le altre probabilità
@@ -221,7 +221,7 @@ def drawnode(draw,tree,x,y):
     draw.text((x-50,y),txt,(0,0,0))
 
 import matplotlib.pyplot as plt
-def performance(tree,test):
+def performance(tree,test): #aggiunta
   #t=[]
   #f=[]
   t=0
@@ -229,6 +229,7 @@ def performance(tree,test):
     #if(isint(classify(row,tree))):
     results=classify(row,tree)
     for r in results:
+      #print results
       if r==row[len(row)-1]:
         t=t+1
         #t=t+['true']
@@ -239,7 +240,7 @@ def performance(tree,test):
   #print len(test)
   return percent
 
-def fperformance(data):
+def fperformance(data): #aggiunta
   testc=data
   percent=10
   p=[]
@@ -257,7 +258,7 @@ def fperformance(data):
   line.set_antialiased(False)
   plt.show()
   
-def classify(observation,tree):
+def classify(observation,tree): #dato in pasto un albero e' un esempio ci restituisce la classificazione
   if tree.results!=None:
     return tree.results
   else:
@@ -329,7 +330,7 @@ def variance(rows):
 
 def buildtree(rows,scoref=entropy):
   if len(rows)==0: return decisionnode()
-  current_score=scoref(rows)#scoref in realtà è la funzione dell' entropia
+  current_score=scoref(rows) #scoref in realtà è la funzione dell' entropia
 
   # Set up some variables to track the best criteria
   best_gain=0.0
@@ -342,14 +343,13 @@ def buildtree(rows,scoref=entropy):
     # this column
     column_values={}
     for row in rows:
-       column_values[row[col]]=1
+       column_values[row[col]]=1 #colonna di tutti i possibili valori
     # Now try dividing the rows up for each value
     # in this column
-    for value in column_values.keys():
+    for value in column_values.keys(): #
       #per ogni valore nelle colonne che gli diamo lo divide in due set quello che rispe
       #tta il criterio e quello no
       (set1,set2)=divideset(rows,col,value)
-      
       # Information gain
       p=float(len(set1))/len(rows) #calcola la propabilità che capiti un risultato vero
       gain=current_score-p*scoref(set1)-(1-p)*scoref(set2)
@@ -369,4 +369,4 @@ def buildtree(rows,scoref=entropy):
     return decisionnode(col=best_criteria[0],value=best_criteria[1],
                         tb=trueBranch,fb=falseBranch)
   else:
-    return decisionnode(results=uniquecounts(rows))
+    return decisionnode(results=uniquecounts(rows)
