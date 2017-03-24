@@ -15,23 +15,77 @@
 #        ['slashdot','UK','no',21,'None'],
 #        ['google','UK','yes',18,'Basic'],
 #        ['kiwitobes','France','yes',19,'Basic']]
+import random
 def isfloat(value):
   try:
     float(value)
     return True
   except:
     return False
-c=0
-my_data=[]
-for line in file('iris.txt'):
-  srt=line.split(',')
-  for count in range(0,len(srt)):
-    if(isfloat(srt[count])):
-      srt[count]=float(srt[count])
-    else :
-      srt[count]=srt[count].strip('\n')
-  my_data=my_data+[srt];
-  c=c+1
+
+def isint(value):
+  try:
+    int(value)
+    return True
+  except:
+    return False
+  
+
+train_data=[]
+test_data=[]
+def aprifile(fil="nomefile.txt"):
+  data=[]
+  for line in file(fil):
+    srt=line.split(',')
+    for count in range(0,len(srt)):
+      if(isfloat(srt[count])):
+        srt[count]=float(srt[count])
+      else :
+        srt[count]=srt[count].strip('\n')
+    data=data+[srt];
+  return data
+
+train_data=aprifile('iristraining 40%.txtaggiunta.txt')
+test_data=aprifile('iristest 60%.txtaggiunta.txt')
+d=aprifile('mushroom.txt')
+
+def createdataset(data,numdati):
+  #print nelement
+  tr=[]
+  te=[]
+  t=[]
+  for i in range(0,numdati):
+    t=random.choice(data);
+    tr=tr+[t]
+    num=data.index(t)
+    del data[num]
+  v=len(data)-numdati
+  f=open(str(v)+"%train.txt","w")
+  for row in tr:
+    f.write("%s\n" % row)
+  f.close();
+  #for dato in data:
+   # if dato not in tr:
+    #  if dato
+     # print dato
+  te=data
+  f1=open(str(v)+"%test.txt","w")
+  for row in te:
+    f1.write("%s\n" %row)
+  f1.close();
+  return(tr,te)
+
+def mettivirgola(fil="nomefile.txt"):
+  l=""
+  f1=open(fil+"aggiunta.txt","a")
+  with open(fil,"r") as f:
+    for line in f:
+      line=line.replace('[','')
+      line=line.replace(']','')
+      line=line.replace("'","")
+      line=line.strip(' ')
+      f1.write(line)
+      
 class decisionnode:
   def __init__(self,col=-1,value=None,results=None,tb=None,fb=None):
     self.col=col #colonna del criterio da testare
@@ -140,7 +194,7 @@ def drawtree(tree,jpeg='tree.jpg'):
   draw=ImageDraw.Draw(img)
 
   drawnode(draw,tree,w/2,20)
-  img.save(jpeg,'JPEG')
+  img.save(jpeg,format="JPEG", quality=80,progessive=True)
   
 def drawnode(draw,tree,x,y):
   if tree.results==None:
@@ -164,9 +218,45 @@ def drawnode(draw,tree,x,y):
     drawnode(draw,tree.tb,right-w2/2,y+100)
   else:
     txt=' \n'.join(['%s:%d'%v for v in tree.results.items()])
-    draw.text((x-20,y),txt,(0,0,0))
+    draw.text((x-50,y),txt,(0,0,0))
 
+import matplotlib.pyplot as plt
+def performance(tree,test):
+  #t=[]
+  #f=[]
+  t=0
+  for row in test:
+    #if(isint(classify(row,tree))):
+    results=classify(row,tree)
+    for r in results:
+      if r==row[len(row)-1]:
+        t=t+1
+        #t=t+['true']
+      #else:
+        #f=f+['false']
+  percent=float(t)/len(test)
+  print len(test)
+  #print len(test)
+  return percent
 
+def fperformance(data):
+  testc=data
+  percent=10
+  p=[]
+  perc=[]
+  numdati=(int)((float)(len(testc))/100*percent);
+  for i in range(0,5):
+    (train,testc)=createdataset(testc,numdati)
+    tree=buildtree(train)
+    p=p+[performance(tree,testc)]
+    perc=perc+[percent]
+    percent=percent+10;
+  line,=plt.plot(perc,p,'r-')
+  plt.xlabel('percentuale dati training')
+  plt.ylabel('percentuale successi')
+  line.set_antialiased(False)
+  plt.show()
+  
 def classify(observation,tree):
   if tree.results!=None:
     return tree.results
