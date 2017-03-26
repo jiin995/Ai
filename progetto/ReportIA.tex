@@ -1,0 +1,41 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{microtype}
+\usepackage{lmodern}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small,format=hang,labelfont={sf,bf}}
+\usepackage{float}
+
+
+\begin{document}        
+	\begin{titlepage}
+		\centering
+		{\scshape\huge Università degli Studi di Napoli Federico II \par}
+		\vspace{1cm}
+		{\scshape\large Dipartimento di Ingegneria Elettrica e delle Tecnologie dell'Informazione\par}
+		\vspace{0.5cm}
+		{\scshape\large Corso di Intelligenza Artificiale\par}
+		\vspace{1.5cm}
+		{\ttfamily\Large Elaborato Esercitativo\par}
+		\vspace{0.5cm}
+		{\huge\bfseries Work Projects\par}
+		\vspace{2cm}
+		{\Large\itshape Milo Saverio\par}
+		{\Large\itshape Previtera Gabriele\par}
+		{\Large\itshape Pommella Michele\par}
+		\vspace{1.5cm}
+		{\large Prof.~Neri Filippo\par}
+		
+		\vfill
+		
+		% Bottom of the page
+		{\large Anno 2016-2017\par}
+		
+		\include{./Esercitazione1/esercitazione1}
+	\end{titlepage}
+\end{document}        
