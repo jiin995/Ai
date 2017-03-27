@@ -402,3 +402,13 @@ def buildtree(rows,scoref=entropy):
   else:
     return decisionnode(results=uniquecounts(rows))
 
+def createDT(numdati,fil='nomefile.txt'):
+  data=aprifile(fil)
+  (training,test)=createdataset(data,numdati,[])
+  tree=buildtree(training)
+  drawtree(tree,'K'+str(random.randint(0,100))+'-'+fil+'-'+str(numdati)+'-tree.jpg')
+
+def performanceMeasure(fil='nomefile.txt'):
+  data=aprifile(fil)
+  fperformance(data)
+
