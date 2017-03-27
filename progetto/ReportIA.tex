@@ -10,8 +10,14 @@
 \usepackage{caption}
 \captionsetup{tableposition=top,figureposition=bottom,font=small,format=hang,labelfont={sf,bf}}
 \usepackage{float}
-
-
+\usepackage{listings}
+\usepackage{color}
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
 \begin{document}        
 	\begin{titlepage}
 		\centering

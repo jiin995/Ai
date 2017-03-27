@@ -31,8 +31,8 @@ def isint(value):
     return False
   
 
-train_data=[]
-test_data=[]
+#train_data=[]
+#test_data=[]
 def aprifile(fil="nomefile.txt"):
   data=[]
   for line in file(fil):
@@ -45,9 +45,9 @@ def aprifile(fil="nomefile.txt"):
     data=data+[srt];
   return data
 
-train_data=aprifile('iristraining 40%.txtaggiunta.txt')
-test_data=aprifile('iristest 60%.txtaggiunta.txt')
-d=aprifile('mushroom.txt')
+#train_data=aprifile('iristraining 40%.txtaggiunta.txt')
+#test_data=aprifile('iristest 60%.txtaggiunta.txt')
+d=aprifile('adult.txt')
 
 def createdataset(data,numdati):
   #print nelement
@@ -61,6 +61,35 @@ def createdataset(data,numdati):
     del data[num]
   v=len(data)-numdati
   f=open(str(v)+"%train.txt","w")
+  for row in tr:
+    f.write("%s\n" % row)
+  f.close();
+  #for dato in data:
+   # if dato not in tr:
+    #  if dato
+     # print dato
+  te=data
+  f1=open(str(v)+"%test.txt","w")
+  for row in te:
+    f1.write("%s\n" %row)
+  f1.close();
+  return(tr,te)
+
+def createdataset(data,numdati,train):
+  #print nelement
+  tr=[]
+  te=[]
+  t=[]
+  for i in range(0,numdati):
+    t=random.choice(data);
+    tr=tr+[t]
+    num=data.index(t)
+    del data[num]
+  v=len(data)-numdati
+  f=open(str(v)+"%train.txt","w")
+  if len(train) is not 0:
+    for row in train:
+      f.write("%s\n" % row)
   for row in tr:
     f.write("%s\n" % row)
   f.close();
@@ -194,7 +223,7 @@ def drawtree(tree,jpeg='tree.jpg'):
   draw=ImageDraw.Draw(img)
 
   drawnode(draw,tree,w/2,20)
-  img.save(jpeg,format="JPEG", quality=80,progessive=True)
+  img.save(jpeg,format="JPEG", quality=40,progessive=True)
   
 def drawnode(draw,tree,x,y):
   if tree.results==None:
@@ -244,10 +273,12 @@ def fperformance(data):
   percent=10
   p=[]
   perc=[]
+  t=[]
   numdati=(int)((float)(len(testc))/100*percent);
   for i in range(0,5):
-    (train,testc)=createdataset(testc,numdati)
-    tree=buildtree(train)
+    (train,testc)=createdataset(testc,numdati,t)
+    t=t+train;
+    tree=buildtree(t)
     p=p+[performance(tree,testc)]
     perc=perc+[percent]
     percent=percent+10;
