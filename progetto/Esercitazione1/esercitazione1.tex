@@ -36,14 +36,39 @@
 
 \mychapter{1}{Decision Trees}
 	\label{ch:dt}
+	Questo primo lavoro di gruppo si incentra sulla comprensione empirica dei \textsf{Decision Trees}, esempio di strumento ampiamente diffuso nel \textsf{ Machine Learning}, e sul \textsf{Problem Solving}, metodo scientifico applicato dall'\textsf{I.A.} per la risoluzione dei problemi.
 	\section{Esercizio 1}
 		\label{sec:es1}
 		\subsection{}
-		%una tipologia  di apprendimento assistito.utilizzando tale tipo di apprendimento abbiamo che il nostro agente intelligente e' in grado di prendere decisioni basandosi sull'albero di decisioni, costruito  classificando i vari esempi che gli sono stati forniti, cercando di estrarre le informazioni necessarie eliminando quelle superflue e ridondanti
+		Un albero di decisione è un grafo delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente. La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri. Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
 		
-		In questo primo lavoro di gruppo, vogliamo soffermarci sugli alberi di decisione usati per il Machine Learning, un tipo di apprendimento assistito, in cui si va a creare un albero che classifica vari esempi e cerca di estrarre le informazioni necessarie, eliminando quelle superflue o ridondanti.
-		\newline
-		Come primo esempio di classificazione, prendiamo un insieme di dati che riguardano vari tipi di iris, caratterizzabili da quattro attributi: lunghezza del sepalo, larghezza del sepalo, lunghezza del petalo, larghezza del petalo, espresse tutte in cm,  il nostro intero set di dati è formato 150 esempi, decidiamo di usare un 
+		Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi:
+		\begin{itemize}
+			\item lunghezza del sepalo
+			\item larghezza del sepalo
+			\item lunghezza del petalo
+			\item larghezza del petalo
+		\end{itemize}
+		Queste grandezze sono dimensionalmente espresse tutte in cm. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso. Gli esempi del dataset si presentano nella forma:
+		\lstinputlisting[lastline=1]{iris.txt}
+		Abbiamo, dunque, determinato i valori di ciascun esempio attraverso le virgole delimitatorie, riconosciuto i valori numerici (precedentemente visti come stringhe) definendoli come tali ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.
+		\begin{python}
+		def aprifile(fil="nomefile.txt"):
+			data=[]
+			for line in file(fil):
+				srt=line.split(',')
+				for count in range(0,len(srt)):
+					if(isfloat(srt[count])):
+						srt[count]=float(srt[count])
+					else :
+						srt[count]=srt[count].strip('\n')
+				data=data+[srt];
+			return data
+		\end{python}
+		Campione di esempio formattato:
+		\lstinputlisting[lastline=1]{irisformattato.txt}
+		
+		decidiamo di usare un 
 		40\% per il training, quindi per l' apprendimento, ed un 60 \% per il test.
 		%espresse in cm.La dimensione complessiva del dataset che abbiamo utilizzato e' di 150 elementi. Nel primo test del codice che abbiamo effettuato abbiamo deciso di utilizzare il ... tali set di dati sono costruiti automaticamente da una funzione da noi scritta che crea i data set scegliendo elementi random
 		\includegraphics[scale=0.37]{iris.jpg}
