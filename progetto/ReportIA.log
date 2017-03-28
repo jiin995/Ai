@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.27)  28 MAR 2017 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.27)  28 MAR 2017 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -656,13 +656,13 @@ Package microtype Info: Loading generic settings for font family
 <iris.jpg, id=11, 803.0pt x 622.325pt>
 File: iris.jpg Graphic file (type jpg)
  <use iris.jpg>
-Package pdftex.def Info: iris.jpg used on input line 45.
+Package pdftex.def Info: iris.jpg used on input line 49.
 (pdftex.def)             Requested size: 297.10535pt x 230.25664pt.
 
 <mushroom.jpg, id=12, 1907.125pt x 923.45pt>
 File: mushroom.jpg Graphic file (type jpg)
  <use mushroom.jpg>
-Package pdftex.def Info: mushroom.jpg used on input line 54.
+Package pdftex.def Info: mushroom.jpg used on input line 58.
 (pdftex.def)             Requested size: 323.97415pt x 375.3479pt.
  [2
 
@@ -671,63 +671,64 @@ Package pdftex.def Info: mushroom.jpg used on input line 54.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 74.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 74.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 70.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 74.
 
-Overfull \hbox (38.60403pt too wide) in paragraph at lines 70--71
-[][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (38.60403pt too wide) in paragraph at lines 74--75
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (74.6044pt too wide) in paragraph at lines 72--73
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (74.6044pt too wide) in paragraph at lines 76--77
+[][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 82.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 78.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 82.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 78.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 82.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 78.
+(Font)              <10.95> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 78.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 82.
 
 <performance.png, id=20, 462.528pt x 346.896pt>
 File: performance.png Graphic file (type png)
  <use performance.png>
-Package pdftex.def Info: performance.png used on input line 86.
+Package pdftex.def Info: performance.png used on input line 90.
 (pdftex.def)             Requested size: 397.77338pt x 298.33003pt.
 
-Overfull \hbox (37.77338pt too wide) in paragraph at lines 85--97
+Overfull \hbox (37.77338pt too wide) in paragraph at lines 89--101
  [] 
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 98.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 104.
+
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -738,13 +739,13 @@ Package microtype Info: Loading generic settings for font family
  [5 <./performance.png>]) [6]
 [7] (./ReportIA.aux (./Esercitazione1/esercitazione1.aux)) ) 
 Here is how much of TeX's memory you used:
- 7640 strings out of 494934
- 113388 string characters out of 6180556
- 229499 words of memory out of 5000000
- 10744 multiletter control sequences out of 15000+600000
- 69352 words of font info for 75 fonts, out of 8000000 for 9000
+ 7639 strings out of 494934
+ 113381 string characters out of 6180556
+ 230547 words of memory out of 5000000
+ 10745 multiletter control sequences out of 15000+600000
+ 69269 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,5n,43p,1331b,1618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,5n,43p,1331b,1621s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/f
 onts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type
@@ -756,7 +757,7 @@ lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share
 f/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfo
 nts/t1xtt.pfb>
-Output written on ReportIA.pdf (7 pages, 339551 bytes).
+Output written on ReportIA.pdf (7 pages, 340397 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
