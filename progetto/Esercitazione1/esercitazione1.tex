@@ -42,16 +42,17 @@
 		\subsection{}
 		Un albero di decisione è un grafo delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente. La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri. Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
 		
-		Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi:
-		\begin{itemize}
-			\item lunghezza del sepalo
-			\item larghezza del sepalo
-			\item lunghezza del petalo
-			\item larghezza del petalo
-		\end{itemize}
+		Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi.
+		%\begin{itemize}
+		%	\item lunghezza del sepalo
+		%	\item larghezza del sepalo
+		%	\item lunghezza del petalo
+		%	\item larghezza del petalo
+		%\end{itemize}
 		Queste grandezze sono dimensionalmente espresse tutte in cm. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso. Gli esempi del dataset si presentano nella forma:
 		\lstinputlisting[lastline=1]{iris.txt}
 		Abbiamo, dunque, determinato i valori di ciascun esempio attraverso le virgole delimitatorie, riconosciuto i valori numerici (precedentemente visti come stringhe) definendoli come tali ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.
+		\newline
 		\begin{python}
 		def aprifile(fil="nomefile.txt"):
 			data=[]
@@ -68,7 +69,7 @@
 		Campione di esempio formattato:
 		\lstinputlisting[lastline=1]{irisformattato.txt}
 		
-		decidiamo di usare un 
+		Decidiamo di usare un 
 		40\% per il training, quindi per l' apprendimento, ed un 60 \% per il test.
 		%espresse in cm.La dimensione complessiva del dataset che abbiamo utilizzato e' di 150 elementi. Nel primo test del codice che abbiamo effettuato abbiamo deciso di utilizzare il ... tali set di dati sono costruiti automaticamente da una funzione da noi scritta che crea i data set scegliendo elementi random
 		\includegraphics[scale=0.37]{iris.jpg}
@@ -79,14 +80,14 @@
 		\newline
 		\newline
 		%li separeri come paragrafo uno chiamerei iris e uno fughi 
-		Ora invece ci concentriamo su un diverso data set relativo ai funghi, caratterizzato da ben 22 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
+		Ora invece ci concentriamo su un diverso data set relativo ai funghi per determinare l' habitat in cui vivono, caratterizzato da ben 22 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
 		\includegraphics[width=.9\textwidth, height=0.63\textheight]{mushroom.jpg}		
 		L' albero,come si può osservare non è in grado di classificare gli esempi distintamente.
 		%in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo. 
 	    Tale risultato può essere conseguenza dal fatto che il numero di esempi usato per il training sia troppo piccolo, quindi non capace di permettere di discriminare appieno una scelta, oppure gli attributi utilizzati non sono abbastanza rappresentativi, non riuscendo a classificare appieno i vari esempi, quindi bisognerebbe introdurre altri attributi oppure modificare quelli usati,in questo stato l' albero può portare a decisioni includenti.
+	    Come si può osservare dai 2 esempi di data set, un alto numero di attributi, non è detto che ci porti a spiegare tutti gli esempi, infatti l' albero relativo ai funghi non utilizza tutte le caratteristiche ma solo alcune, quelle con un contenuto informativo più alto, abolendo le altre, però l' albero dei funghi molto probabilmente riuscirà a darci buoni risultati anche con casi sconosciuti essendo molto generico, quello degli iris no.
 		\subsection{}
 		In questo esempio mostreremo al variare del training set e del data set il cambiamento valore della performance dell' albero visualizzando tramite un grafico.
-		\newline
 		Il data set che andremo ad utilizzare è stato preso da un censimento, per identificare le persone che guadagnano più di cinquanta mila dollari all' anno.
 		Le righe di codice adibite alla generazione del grafico sono quelle scritte in questa funzione:
 		\begin{python}
@@ -114,15 +115,12 @@
 		la funzione essenzialmente dopo aver fatto una copia dei dati passati, fatto un paio di inizializzazione di liste che ci occorrono per il plot dei dati e aver determinato il numero di elementi da aggiungere al training set(togliendoli al test set), iterativamente per 5 volte divide i dati in train set e test set, dopo di che il train viene assegnata ad una lista t che incrementa ad ogni variazione e scritta su file da createdataset, viene costruito l' albero, se ne calcola il valore di performance, richiamando al suo interno la funzione classify che ritorna la classificazione  fatta dall ' albero con gli attributi dell' esempio e confrontandoli con il valore del test, se l' albero è riuscito a classificare bene l' esempio allora si avrà un riscontro positivo, altrimenti negativo, alla fine performance ritorna la percentuale di positivi sul numero di test effettuati.Dopo di che si aggiungono i punti alla linea per il plot e alla fine viene mostrata su schermo, un esempio di curva è questo:
 		\includegraphics[scale=0.86]{performance.png}
 		%evince 
-		Come si vede dal grafico la nostra percentuale di apprendimento migliora fino al 40\% dopodichè si percepisce un degrado dell'apprendimento quando arriviamo al 50\% di dati utilizzati per il training-set.
+		Come si vede dal grafico la nostra percentuale di apprendimento migliora fino al 40\% dopodiché si percepisce un degrado dell'apprendimento quando arriviamo al 50\% di dati utilizzati per il training-set.
 		\newline
-		 Su tale risultato siamo giunti alla seguente considerazione "aumentando il training-set si è giunti alla realizzazione di un albero più specifico e di conseguenza meno capacità di classificare gli esempi".
+		 Su tale risultato siamo giunti alla seguente considerazione " aumentando il training-set si è costruito un albero più specifico e di conseguenza  con meno capacità di classificare gli esempi ".
 		 Dalla figura che mostra l'andamento della curva di apprendimento, si intuisce che la rappresentazione dell'ambiente così descritto dai data-set è ridondante.
 		  Infatti la crescita è lenta, al crescere del training-set dal 10\% al 50\% si evince che l'aumento è di circa del 1\%.
-		  Per migliorare la qualità dell'albero di decisione si potrebbero rimuovere alcuni attribbuti, in modo tale da incrementare la ripidità della curva.
-		  Il problme è quale di questi attributi bisogna rimuovere?
-		  \newline
-			Ovviamente  bisognerebbe testare altre configurazioni dell' ambiente in cui abbiamo un numero di attributi minore.
+		  Per migliorare la rapidità della curva di performance dell'albero di decisione si potrebbero rimuovere alcuni attributi,se si è sicuri della rappresentazione, testando altre configurazioni dell' ambiente fino a che non vediamo miglioramenti evidenti nell' apprendimento, se ciò non avviene si può pensare di cambiare gli attributi che pensiamo ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
 		\subsection{}
 		
 		%tali tecniche di apprendimento mirano alla formulazione di una funzione h che approssimi la funzione f, dove ricordiamo che f è la funzione condizione azione che si vorrebbe apprendere. la costruione di h avviene 
