@@ -33,7 +33,7 @@
 		\lstset{#1}
 	}
 	{}
-
+\raggedright
 \mychapter{1}{Decision Trees}
 	\label{ch:dt}
 	Questo primo lavoro di gruppo si incentra sulla comprensione empirica dei \textsf{Decision Trees}, esempio di strumento ampiamente diffuso nel \textsf{ Machine Learning}, e sul \textsf{Problem Solving}, metodo scientifico applicato dall'\textsf{I.A.} per la risoluzione dei problemi.
@@ -42,7 +42,7 @@
 		\subsection{}
 		
 		%io non direi grafo a finale un albero e' una sorta di specializzazione di un grafo
-		Un albero di decisione è un grafo delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente.\newline La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri.%parlerei anche di bonta' dell'apprendimento dicendo che se dai piu' dat apprende di piu'  e blablabla
+		Un albero di decisione è un metodo per visualizzare delle decisioni e le loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente.\newline La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri.%parlerei anche di bonta' dell'apprendimento dicendo che se dai piu' dat apprende di piu'  e blablabla
 		 Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
 		
 		Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi.
@@ -72,7 +72,6 @@
 		\bigskip
 		Un campione di esempio formattato si presenterà, dunque, nella forma:
 		\lstinputlisting[lastline=1]{irisformattato.txt}
-
 		
 		Decidiamo di usare il 40\% dei dati forniti dal dataset per il training, quindi per l' apprendimento, ed un 60 \% per il test.
 		Per la determinazione di training set e test set si è utilizzata una funzione che selezioni un insieme casuale di esempi dal data set di partenza, con cardinalità determinata dai parametri di ingresso.
@@ -96,20 +95,22 @@
 		\includegraphics[scale=0.37]{iris.jpg}
 		
 		 Come si evince dalla figura, il nodo scelto come radice è la terza colonna(colonna numero 2 da programma, perché la numerazione effettuata dal codice della classificazione rimarca quella delle liste in python) ed il valore che  minimizza la funzione d' entropia è 3.6, infatti ci permette di caratterizzare già 16 esempi.
-		  L'albero con le informazioni di training, riesce a classificare tutti gli esempi, anche se il contenuto informativo degli attribbuti non è alto, perché come vediamo, un attributo non riesce a caratterizzare nettamente un gruppo di esempi.Infatti più volte sono richiamati gli stessi attribbuti per splittare nuovamente i dati, aumentando così la profondità dell' albero. \newline Quest' ultimo,per tale ragione non può essere considerato generico, molto probabilmente se utlizziamo per il test un test-set contenete dati molto diversi da quelli con cui è stato effettuato il training non ci offrira' ottimi risultati. 
+		  L'albero con le informazioni di training, riesce a classificare tutti gli esempi, anche se il contenuto informativo degli attributi non è alto, perché come vediamo, un attributo non riesce a caratterizzare nettamente un gruppo di esempi.Infatti più volte sono richiamati gli stessi attributi per splittare nuovamente i dati, aumentando così la profondità dell' albero. \newline Quest' ultimo,per tale ragione non può essere considerato generico, molto probabilmente se utlizziamo per il test un test-set contenete dati molto diversi da quelli con cui è stato effettuato il training non ci offrirà ottimi risultati. 
 		  \newline Una soluzione a tale problema potrebbe essere l'applicazione di una potatura su alcuni rami, in modo tale da renderlo più semplice.
-		  \newline Tale soluzione ha come fondamenta l'enunciato di Okam, anche conosciuto come  \textbf{\textit{rasoio di Okam}}.
+		  \newline Cosi da rispettare l'enunciato di Okam, anche conosciuto come  \textbf{\textit{rasoio di Okam}},in cui si afferma che risultati più semplici ci permettono di ottenere riscontri migliori,la potatura infatti rende l' albero più semplice perché ne diminuisce la profondità.
 		\newline
 		\newline
 		%li separeri come paragrafo uno chiamerei iris e uno fughi 
-		Ora invece ci concentriamo su un diverso dataset relativo ai funghi,scopo ultimo di questo dataset è determinare l' habitat in cui i funghi vivono.Il dataset è caratterizzato da ben 22 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
+		Ora invece ci concentriamo su un diverso dataset relativo ai funghi,scopo ultimo di questo dataset è determinare l' habitat in cui i funghi vivono. Il dataset è caratterizzato da ben 21 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
 		\includegraphics[width=.9\textwidth, height=0.63\textheight]{mushroom.jpg}		
 		\newline L' albero,come si può osservare non è in grado di classificare gli esempi distintamente.
 		%in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portavano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo. 
 	    Tale risultato può essere conseguenza dal fatto che il numero di esempi usato per il training sia troppo piccolo, quindi non capace di permettere di discriminare appieno una scelta, oppure gli attributi utilizzati non sono abbastanza rappresentativi, non riuscendo a classificare appieno i vari esempi, quindi bisognerebbe introdurre altri attributi oppure modificare quelli usati,in questo stato l' albero può portare a decisioni includenti.
-	    Come si può osservare dai 2 esempi di data set, un alto numero di attributi, non è detto che ci porti a spiegare tutti gli esempi, infatti l' albero relativo ai funghi non utilizza tutte le caratteristiche ma solo alcune, quelle con un contenuto informativo più alto, abolendo le altre, però l' albero dei funghi molto probabilmente riuscirà a darci buoni risultati anche con casi sconosciuti essendo molto generico, quello degli iris no.
+	    \medskip
+	    \newline
+	    Come si può osservare dai 2 esempi di data set, un alto numero di attributi, non è detto che porti a spiegare tutti gli esempi, infatti l' albero relativo ai funghi non utilizza tutte le caratteristiche ma solo alcune, quelle con un contenuto informativo più alto, abolendo le altre, però l' albero dei funghi molto probabilmente riuscirà a darci buoni risultati anche con casi sconosciuti essendo molto generico, a dispetto di quello che classifica gli iris.
 		\subsection{}
-		In questo esempio mostreremo al variare del training set e del data set il cambiamento valore della performance dell' albero visualizzando tramite un grafico.
+		In questo esempio mostreremo al variare del training set e del data set, il valore della performance dell' albero visualizzando tramite un grafico.
 		Il data set che andremo ad utilizzare è stato preso da un censimento, per identificare le persone che guadagnano più di cinquanta mila dollari all' anno.
 		Le righe di codice adibite alla generazione del grafico sono quelle scritte in questa funzione:
 		\begin{python}
@@ -134,7 +135,7 @@
 			plt.show()
 		\end{python}
 	%passiamo ora a descrivere cosa fa questa funzione come prima cosa effettua una copia del dataset che gli e' stato ricevuto dopodiche' inizializza una serie di liste a supporto delle operazioni successive. farei una descrizione per linee di codice, metterei il codice per riga sia sopra che sotto commentando
-		la funzione essenzialmente dopo aver fatto una copia dei dati passati, fatto un paio di inizializzazione di liste che ci occorrono per il plot dei dati e aver determinato il numero di elementi da aggiungere al training set(togliendoli al test set), iterativamente per 5 volte divide i dati in train set e test set, dopo di che il train viene assegnata ad una lista t che incrementa ad ogni variazione e scritta su file da createdataset, viene costruito l' albero, se ne calcola il valore di performance, richiamando al suo interno la funzione classify che ritorna la classificazione  fatta dall ' albero con gli attributi dell' esempio e confrontandoli con il valore del test, se l' albero è riuscito a classificare bene l' esempio allora si avrà un riscontro positivo, altrimenti negativo, alla fine performance ritorna la percentuale di positivi sul numero di test effettuati.Dopo di che si aggiungono i punti alla linea per il plot e alla fine viene mostrata su schermo, un esempio di curva è questo:
+		la funzione essenzialmente dopo aver fatto una copia dei dati passati,delle inizializzazioni di liste che ci occorrono per il plot dei dati e aver determinato il numero di elementi da aggiungere al training set(togliendoli al test set), iterativamente per 5 volte create data set divide i dati in train set e test set,i dati del train vengono assegnati ad una lista t che verrà usata effettivamente per il training, viene costruito l' albero, se ne calcola il valore di performance, richiamando al suo interno la funzione classify che ritorna la classificazione fatta dall ' albero con gli attributi dell' esempio e alla fine si confronta la classificazione ottenuta con il valore del test, se l' albero è riuscito a classificare bene l' esempio allora si avrà un riscontro positivo, altrimenti negativo, performance  ha come valore di ritorno la percentuale di esiti positivi sul numero di test effettuati.Dopo di che si aggiungono i punti alla linea per il plot e alla fine viene mostrata su schermo, un esempio di curva è questo:
 		\includegraphics[scale=0.86]{performance.png}
 		%evince 
 		Come si vede dal grafico la nostra percentuale di apprendimento migliora fino al 40\% dopodiché si percepisce un degrado dell'apprendimento quando arriviamo al 50\% di dati utilizzati per il training-set.
@@ -142,7 +143,7 @@
 		 Su tale risultato siamo giunti alla seguente considerazione " aumentando il training-set si è costruito un albero più specifico e di conseguenza  con meno capacità di classificare gli esempi ".
 		 Dalla figura che mostra l'andamento della curva di apprendimento, si intuisce che la rappresentazione dell'ambiente così descritto dai dataset è ridondante.
 		  Infatti la crescita è lenta, al crescere del training-set dal 10\% al 50\% si evince che l'aumento è di circa del 1\%.
-		  Per migliorare la rapidità della curva di performance dell'albero di decisione si potrebbero rimuovere alcuni attributi,se si è sicuri della rappresentazione, testando altre configurazioni dell' ambiente fino a che non vediamo miglioramenti evidenti nell' apprendimento, se ciò non avviene si può pensare di cambiare gli attributi che pensiamo ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
+		  Per migliorare la rapidità della curva di performance dell'albero di decisione si potrebbero rimuovere alcuni attributi,se si è sicuri della rappresentazione, testando altre configurazioni dell' ambiente fino a che non vediamo miglioramenti evidenti nell' apprendimento, se ciò non avviene si può pensare di cambiare gli attributi che pensiamo essere ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
 		\subsection{}
 		
 		%tali tecniche di apprendimento mirano alla formulazione di una funzione h che approssimi la funzione f, dove ricordiamo che f è la funzione condizione azione che si vorrebbe apprendere. la costruione di h avviene 
@@ -151,7 +152,7 @@
 			Le procedure di \textsf{Decision Tree Learning} consentono la costruzione di un albero di decisione "piccolo", consistente con gli esempi forniti in input per la costruzione di tale struttura. Ogni nodo interno all'albero corrisponde ad una condizione sul valore di un attributo(quindi una decisione), gli archi verso i nodi figli ai possibili valori per quell'attributo(una scelta intrapresa), le foglie alla classificazione(target raggiunto). Si ottiene così, attraverso i \textsf{path} dell'albero, una rappresentazione compatta delle regole di condizione-azione. L'albero di decisione prende in input una situazione descritta da un insieme di attributi e restituisce una decisione, ovvero il valore predetto di uscita per tale input, sulla base del cammino percorso. In questo senso possiamo parlare di apprendimento, poiché, \textbf{alla luce di un dato insieme di esempi, si viene a costituire un albero di decisione dalla ben determinata topologia e legge condizione-azione, utilizzabile per la classificazione di esempi futuri}.
 	\section{Esercizio 2}
 		\label{sec:es2}
-		Il problema descritto è del tipo \emph{non deterministico} e \emph{parzialmente osservabile}, quindi classificabile come \textsf{Contingency Problem}. L'algoritmo di navigazione proposto fa uso di un albero di ricerca con strategia di ricerca in profondità (\textsf{depth-first search}), la quale prevede di espandere primariamente il nodo più profondo non espanso.
+		Il problema descritto è del tipo \emph{non deterministico} e \emph{parzialmente osservabile}, quindi classificabile come \textsf{Contingency Problem}.Essendo le distanze geografiche  elastiche, possiamo immaginare che forze esterne ad ogni cambio di città del robot fanno cambiare la geografia del pianeta incrementando o diminuendo le distanze tra le varie città, per tale motivo l'algoritmo di navigazione proposto fa uso di un albero di ricerca con strategia di analisi in profondità (\textsf{depth-first search}), la quale prevede di espandere primariamente il nodo più profondo non espanso.
 		\newline
 		 L'alterazione non deterministica delle distanze ci ha spinto a sottolineare l'importanza di \textbf{minimizzare il numero di città percorse} lungo il tragitto verso l'obiettivo. Un maggior numero di città attraversate aumenterebbe probabilisticamente la distanza percorsa. Sarebbe, quindi, auspicabile evitare, o minimizzare, il numero di processi di risalita dell'albero, che prevederebbero il ritorno alle stesse città più volte, e continuare nella navigazione in profondità, sfruttando, nel migliore dei casi, la possibilità di arrivare al \textsf{goal} senza attuare un \textsf{backtracking}. Inoltre, per evitare l'insorgere di cicli, si è previsto di tenere traccia dell'insieme dei nodi già esplorati,mediante l'utilizzo di una lista, ottenendo in definitiva un algoritmo del tipo \textsf{Graph Search}.
 La scelta dell'utilizzo della struttura dati lista semplice, è stata dettata dalla natura del problema, in quanto a differenza del problema analogo, ma diverso trattato in classe, in questo esempio le distanze tra le città non sono costanti e quindi la struttura dati lista ordinata in base alla distanza non si adatta a tale tipologia di problema.

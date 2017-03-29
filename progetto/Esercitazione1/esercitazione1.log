@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.27)  28 MAR 2017 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  29 MAR 2017 10:30
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**esercitazione1.tex
-(./esercitazione1.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 4 language(s) loaded.
+**./esercitazione1.tex
+(esercitazione1.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ! Undefined control sequence.
 l.1 \definecolor
                 {deepblue}{rgb}{0,0,0.5}
@@ -100,7 +98,9 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 0 in font nullfont!
 LaTeX Font Info:    Try loading font information for T1+txtt on input line 4.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\t1txtt.f
+d"
 File: t1txtt.fd 2000/12/15 v3.1
 )
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--6
@@ -108,7 +108,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--6
  []
 
 ! Undefined control sequence.
-l.26 	\lstnewenvironment
+l.30 	\lstnewenvironment
                         {python}[1][]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -123,7 +123,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 	\lstnewenvironment{p
+l.30 	\lstnewenvironment{p
                           ython}[1][]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -142,7 +142,7 @@ Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 \pythonstyle ->\lstset 
                        { language=Python, basicstyle=\ttm , otherkeywords={s...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -180,7 +180,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 \pythonstyle ...={self}, keywordstyle=\ttb \color 
                                                   {deepblue}, emph={MyClass,...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -191,19 +191,19 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 32.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -213,7 +213,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -223,7 +223,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    }
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -233,7 +233,7 @@ so that I will find a matching right brace soon.
 ! Undefined control sequence.
 \pythonstyle ...,__init__}, emphstyle=\ttb \color 
                                                   {deepred}, stringstyle=\co...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -244,7 +244,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \pythonstyle ...lor {deepred}, stringstyle=\color 
                                                   {deepgreen}, frame=tb, sho...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -255,7 +255,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\dimexpr' in math mode.
 \pythonstyle ...spaces=false xleftmargin=\dimexpr 
                                                   \fboxsep -\fboxrule , xrig...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -265,7 +265,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\dimexpr' in math mode.
 \pythonstyle ...\fboxrule , xrightmargin=\dimexpr 
                                                   \fboxsep -\fboxrule , gobb...
-l.28 		\pythonstyle
+l.32 		\pythonstyle
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -273,7 +273,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.29 		\lstset
+l.33 		\lstset
               {#1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -282,7 +282,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.29 		\lstset{#
+l.33 		\lstset{#
                 1}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -292,38 +292,38 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 
+l.36 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--32
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--36
 []
  []
 
 
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 26--32
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 30--36
 \T1/txtt/m/n/12 ,
  []
 
 
-Overfull \hbox (119.69977pt too wide) in paragraph at lines 26--32
+Overfull \hbox (119.69977pt too wide) in paragraph at lines 30--36
 \T1/txtt/m/n/12 otherkeywords=self,
  []
 
 
-Overfull \hbox (138.59973pt too wide) in paragraph at lines 26--32
+Overfull \hbox (138.59973pt too wide) in paragraph at lines 30--36
 \T1/txtt/m/n/12 keywordstyle=\T1/txtt/bx/n/12 deepblue,
  []
 
 
-Overfull \hbox (491.36215pt too wide) in paragraph at lines 26--32
+Overfull \hbox (539.61545pt too wide) in paragraph at lines 30--36
 \T1/txtt/bx/n/12 emph=MyClass,$[][]$ 
  []
 
 ! Undefined control sequence.
-l.33 \mychapter
+l.37 \mychapter
                {1}{Decision Trees}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -338,13 +338,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \mychapter{1
+l.37 \mychapter{1
                  }{Decision Trees}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.35 	\section
+l.40 	\section
               {Esercizio 1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -353,7 +353,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.37 		\subsection
+l.42 		\subsection
                   {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -362,22 +362,222 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (76.69989pt too wide) in paragraph at lines 33--39
+Overfull \hbox (76.69989pt too wide) in paragraph at lines 37--43
 []\T1/txtt/bx/n/12 1Decision
  []
 
 
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 33--39
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 37--43
 \T1/txtt/bx/n/12 Trees
  []
 
 
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 33--39
-[]\T1/txtt/bx/n/12 Esercizio
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 37--43
+[]\T1/txtt/bx/n/12 Questo
  []
 
 
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 33--39
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 primo
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 lavoro
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 gruppo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 incentra
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 sulla
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 comprensione
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 empirica
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 De-
+ []
+
+
+Overfull \hbox (10.16666pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 ci-
+ []
+
+
+Overfull \hbox (16.3889pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 sion
+ []
+
+
+Overfull \hbox (28.41112pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 Trees\T1/txtt/bx/n/12 ,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 strumento
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 ampiamente
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 diffuso
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 nel
+ []
+
+
+Overfull \hbox (16.88895pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 Ma-
+ []
+
+
+Overfull \hbox (21.61111pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 chine
+ []
+
+
+Overfull \hbox (26.3056pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 Learn-
+ []
+
+
+Overfull \hbox (18.85556pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 ing\T1/txtt/bx/n/12 ,
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 sul
+ []
+
+
+Overfull \hbox (23.3056pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 Prob-
+ []
+
+
+Overfull \hbox (14.77779pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 lem
+ []
+
+
+Overfull \hbox (20.88893pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 Solv-
+ []
+
+
+Overfull \hbox (18.85556pt too wide) in paragraph at lines 37--43
+\OT1/cmss/m/n/10 ing\T1/txtt/bx/n/12 ,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 metodo
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 scientifico
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 applicato
+ []
+
+
+Overfull \hbox (46.5pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 dall'\OT1/cmss/m/n/10 I.A.
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 risoluzione
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 problemi.
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 37--43
+\T1/txtt/bx/n/12 Esercizio
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 37--43
 \T1/txtt/bx/n/12 1
  []
 
@@ -388,579 +588,440 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 		I
-        n questo primo lavoro di gruppo, vogliamo soffermarci sugli alberi d...
+l.45 		U
+        n albero di decisione è un grafo delle decisioni e delle loro possi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Undefined control sequence.
-l.45 		\includegraphics
-                       [scale=0.37]{iris.jpg}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (32.59998pt too wide) in paragraph at lines 40--46
-[]\T1/txtt/bx/n/12 In
+Overfull \hbox (32.59998pt too wide) in paragraph at lines 45--47
+[]\T1/txtt/bx/n/12 Un
  []
 
 
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 questo
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 primo
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 lavoro
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 gruppo,
- []
-
-
-Overfull \hbox (50.3999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 vogliamo
- []
-
-
-Overfull \hbox (69.29987pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 soffermarci
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 sugli
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 alberi
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 decisione
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 usati
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 per
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 il
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 Machine
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 Learning,
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 un
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 tipo
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (81.89984pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 apprendimento
- []
-
-
-Overfull \hbox (62.99988pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 assistito,
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 in
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 cui
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 si
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 va
- []
-
-
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 a
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 creare
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 un
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 albero
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 che
- []
-
-
-Overfull \hbox (62.99988pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 classifica
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 vari
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 esempi
- []
-
-
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 e
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 cerca
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 di
  []
 
 
-Overfull \hbox (50.3999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 estrarre
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 decisione
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 le
- []
-
-
-Overfull \hbox (75.59985pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 informazioni
- []
-
-
-Overfull \hbox (69.29987pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 necessarie,
- []
-
-
-Overfull \hbox (62.99988pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 eliminando
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 quelle
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 superflue
- []
-
-
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 o
- []
-
-
-Overfull \hbox (69.29987pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 ridondanti. 
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 Come
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 primo
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 esempio
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (100.7998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 classificazione,
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 prendiamo
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 un
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 insieme
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 dati
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 che
- []
-
-
-Overfull \hbox (62.99988pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 riguardano
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 vari
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 tipi
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 iris,
- []
-
-
-Overfull \hbox (100.7998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 caratterizzabili
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 da
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 quattro
- []
-
-
-Overfull \hbox (62.99988pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 attributi:
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 lunghezza
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 del
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 sepalo,
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 larghezza
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 del
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 sepalo,
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 lunghezza
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 del
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 petalo,
- []
-
-
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 larghezza
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 del
- []
-
-
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 petalo,
- []
-
-
-Overfull \hbox (50.3999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 espresse
- []
-
-
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 tutte
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 in
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 cm,
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 il
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 nostro
- []
-
-
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 intero
- []
-
-
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 set
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 di
- []
-
-
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 dati
- []
-
-
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 è
  []
 
 
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 formato
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 un
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 150
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 grafo
  []
 
 
-Overfull \hbox (44.09991pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 esempi,
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 delle
  []
 
 
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 decidiamo
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 decisioni
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 delle
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 loro
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 possibili
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 conseguenze,
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 costruito
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 fine
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 di
  []
 
 
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 usare
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 supportare
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 l'azione
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 decisionale.
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 Rappresenta
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 un
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 40%
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 importante
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 per
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 strumento
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 nel
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 contesto
+ []
+
+
+Overfull \hbox (69.27777pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 dell'\OT1/cmss/m/n/10 Inductive
+ []
+
+
+Overfull \hbox (26.3056pt too wide) in paragraph at lines 45--47
+\OT1/cmss/m/n/10 Learn-
+ []
+
+
+Overfull \hbox (18.85556pt too wide) in paragraph at lines 45--47
+\OT1/cmss/m/n/10 ing\T1/txtt/bx/n/12 ,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 cui
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 ricopre
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 il
  []
 
 
-Overfull \hbox (56.69989pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 training,
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 ruolo
  []
 
 
-Overfull \hbox (37.79993pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 quindi
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 per
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 modello
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 l'
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 predittivo
  []
 
 
-Overfull \hbox (88.19983pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 apprendimento,
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 su
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 ed
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 cui
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 basa
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 comportamento
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 dell'agente. 
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 La
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 sua
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 struttura
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 discende
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 un
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 60
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 insieme
  []
 
 
-Overfull \hbox (6.29999pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 %
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
  []
 
 
-Overfull \hbox (18.89996pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 per
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 esempi
  []
 
 
-Overfull \hbox (12.59998pt too wide) in paragraph at lines 40--46
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 determina
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 regole
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (107.0998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 condizione-azione
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 atte
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 classificazione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 futuri.Dunque
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 l'agente
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 grado
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 apprendere
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 serie
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
 \T1/txtt/bx/n/12 il
  []
 
 
-Overfull \hbox (31.49994pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 test.
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 comportamento
  []
 
 
-Overfull \hbox (125.99976pt too wide) in paragraph at lines 40--46
-\T1/txtt/bx/n/12 [scale=0.37]iris.jpg 
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 assumere
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 situazioni
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 45--47
+\T1/txtt/bx/n/12 specificate. 
  []
 
 
@@ -970,56 +1031,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 		 C
-         ome si %evince
+l.48 		C
+        ome primo esperimento abbiamo adoperato un insieme di dati facenti r...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.54 		\includegraphics
-                       [width=.9\textwidth, height=0.63\textheight]{mushroom...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   h
-l.54 		\includegraphics[width=.9\textwidth, h
-                                             eight=0.63\textheight]{mushroom...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.54 ...idth=.9\textwidth, height=0.63\textheight]
-                                                  {mushroom.jpg}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.54 ...idth=.9\textwidth, height=0.63\textheight]
-                                                  {mushroom.jpg}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-l.58 		\subsection
-                  {}
+l.56 		\lstinputlisting
+                       [lastline=1]{iris.txt}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1033,8 +1053,1369 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 		\begin{python}
+l.59 		\begin{python}
                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.68 						srt[count]=srt[count].strip('\n
+                                          ')
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{python}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 		\end{python}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.74 		\lstinputlisting
+                       [lastline=1]{irisformattato.txt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (45.19995pt too wide) in paragraph at lines 48--75
+[]\T1/txtt/bx/n/12 Come
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 primo
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 esperimento
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 abbiamo
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 adoperato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 insieme
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 facenti
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 riferimento
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 vari
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 tipi
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (21.52766pt too wide) in paragraph at lines 48--75
+\OT1/cmr/m/it/10 Iris\T1/txtt/bx/n/12 ,
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 caratterizzati
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 quattro
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 attributi.
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 Queste
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 grandezze
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 sono
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dimensionalmente
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 espresse
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 tutte
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 cm.
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 La
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dimensione
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 complessiva
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 150
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 elementi.
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 Per
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 effettuare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 prova
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 stato
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 necessario
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 formattare
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 l'insieme
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 originario,
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 rendendolo
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 consistente
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 esigenze
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 algoritmiche
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 correlate
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 linguaggio
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 utilizzato,
+ []
+
+
+Overfull \hbox (30.80536pt too wide) in paragraph at lines 48--75
+\OT1/cmr/m/it/10 Python
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 nel
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 nostro
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 caso. 
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 Gli
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 presentano
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 nella
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 forma:
+ []
+
+
+Overfull \hbox (125.99976pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 [lastline=1]iris.txt
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 Abbiamo,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dunque,
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 determinato
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 valori
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 ciascun
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 attraverso
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 virgole
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 delimitatorie,
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 riconosciuto
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 valori
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 numerici
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 (precedentemente
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 visti
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 stringhe)
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 definendoli
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 tali
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 ed
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 eliminato
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 eventualmente
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 carattere
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 48--75
+\OT1/cmr/m/it/10 new
+ []
+
+
+Overfull \hbox (15.84435pt too wide) in paragraph at lines 48--75
+\OT1/cmr/m/it/10 line
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 fine
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 evitare
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 valori
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 spuri.
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+ \T1/txtt/bx/n/12 def
+ []
+
+
+Overfull \hbox (182.69965pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 aprifile(fil="nomefile.txt"):
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 data=[]
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 for
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 line
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 file(fil):
+ []
+
+
+Overfull \hbox (119.69977pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 srt=line.split(',')
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 for
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 count
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (113.39978pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 range(0,len(srt)):
+ []
+
+
+Overfull \hbox (151.1997pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 if(isfloat(srt[count])):
+ []
+
+
+Overfull \hbox (176.39966pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 srt[count]=float(srt[count])
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 else
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 :
+ []
+
+
+Overfull \hbox (188.99963pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 srt[count]=srt[count].strip('')
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 data=data+[srt];
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 return
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 data
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 Un
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 campione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 formattato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 presenterà,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 dunque,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 nella
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 forma:
+ []
+
+
+Overfull \hbox (188.99963pt too wide) in paragraph at lines 48--75
+\T1/txtt/bx/n/12 [lastline=1]irisformattato.txt 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/saverio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{ch:dt}{{}{\thepage 
+                                     }}
+l.75 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{ch:dt}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{sec:es1}{{}{\thepage 
+                                       }}
+l.75 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:es1}{{}{}}
+]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 		D
+        ecidiamo di usare il 40\% dei dati forniti dal dataset per il traini...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment python undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 		\begin{python}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{python}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 		\end{python}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.96 		\includegraphics
+                       [scale=0.37]{iris.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (76.69989pt too wide) in paragraph at lines 77--97
+[]\T1/txtt/bx/n/12 Decidiamo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 usare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 40%
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 forniti
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 training,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 quindi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 apprendimento,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 ed
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 60
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 %
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 test.
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 Per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 determinazione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 utilizzata
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 funzione
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 selezioni
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 insieme
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 casuale
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 data
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 partenza,
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 cardinalità
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 determinata
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 dai
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 parametri
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 ingresso.
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+ \T1/txtt/bx/n/12 def
+ []
+
+
+Overfull \hbox (176.39966pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 createdataset(data,numdati):
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 tr=[]
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 te=[]
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 t=[]
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 for
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (107.0998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 range(0,numdati):
+ []
+
+
+Overfull \hbox (138.59973pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 t=random.choice(data);
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 tr=tr+[t]
+ []
+
+
+Overfull \hbox (107.0998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 num=data.index(t)
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 data[num]
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 te=data
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 return(tr,te)
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 Decidiamo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 usare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 40%
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 training,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 quindi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 apprendimento,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 ed
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 60
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 %
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 test.
+ []
+
+
+Overfull \hbox (125.99976pt too wide) in paragraph at lines 77--97
+\T1/txtt/bx/n/12 [scale=0.37]iris.jpg 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 		 C
+         ome si evince dalla figura, il nodo scelto come radice è la terza ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.106 		\includegraphics
+                        [width=.9\textwidth, height=0.63\textheight]{mushroo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   h
+l.106 		\includegraphics[width=.9\textwidth, h
+                                              eight=0.63\textheight]{mushroo...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.106 ...dth=.9\textwidth, height=0.63\textheight]
+                                                  {mushroom.jpg}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.106 ...dth=.9\textwidth, height=0.63\textheight]
+                                                  {mushroom.jpg}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.111 		\subsection
+                   {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment python undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 		\begin{python}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1042,8 +2423,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.81 			line.set_
-                 antialiased(False)
+l.133 			line.set_
+                  antialiased(False)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1054,8 +2435,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 		\end{python}
-                   
+l.135 		\end{python}
+                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1063,8 +2444,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.83 		\end{python}
-                   
+l.135 		\end{python}
+                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1072,8 +2453,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.86 		\includegraphics
-                       [scale=0.86]{performance.png}
+l.138 		\includegraphics
+                        [scale=0.86]{performance.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1081,19 +2462,4053 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.92 		\subsection
-                  {}
+l.146 		\subsection
+                   {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (45.19995pt too wide) in paragraph at lines 98--147
+[]\T1/txtt/bx/n/12 Come
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 evince
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dalla
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 figura,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 nodo
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 scelto
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 radice
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 terza
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 colonna(colonna
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numero
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 2
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 programma,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 perché
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numerazione
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 effettuata
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 codice
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 della
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificazione
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rimarca
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quella
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 delle
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 liste
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 python)
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ed
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 valore
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 minimizza
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funzione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 d'
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 entropia
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 3.6,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 infatti
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 permette
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 caratterizzare
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 già
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 16
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi.
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 L'albero
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 informazioni
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riesce
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificare
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tutti
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 anche
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 se
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 contenuto
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 informativo
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 degli
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attribbuti
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alto,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 perché
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 vediamo,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributo
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riesce
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 caratterizzare
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 nettamente
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gruppo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi.Infatti
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 più
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 volte
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sono
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 richiamati
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 stessi
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attribbuti
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 splittare
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 nuovamente
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati,
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aumentando
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 così
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 profondità
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero. 
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Quest'
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ultimo,per
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tale
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ragione
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 essere
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 considerato
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 generico,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 molto
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 probabilmente
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 se
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utlizziamo
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test-set
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 contenete
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 molto
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 diversi
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quelli
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 cui
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 stato
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 effettuato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 offrira'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ottimi
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 risultati. 
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Una
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 soluzione
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tale
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 problema
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 potrebbe
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 essere
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'applicazione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 potatura
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 su
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alcuni
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rami,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 modo
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tale
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 renderlo
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 più
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 semplice. 
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Tale
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 soluzione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ha
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fondamenta
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'enunciato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Okam,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 anche
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 conosciuto
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 come
+ []
+
+
+Overfull \hbox (14.4832pt too wide) in paragraph at lines 98--147
+\OT1/cmr/bx/it/10 ra-
+ []
+
+
+Overfull \hbox (20.24701pt too wide) in paragraph at lines 98--147
+\OT1/cmr/bx/it/10 soio
+ []
+
+
+Overfull \hbox (9.46657pt too wide) in paragraph at lines 98--147
+\OT1/cmr/bx/it/10 di
+ []
+
+
+Overfull \hbox (36.47005pt too wide) in paragraph at lines 98--147
+\OT1/cmr/bx/it/10 Okam\T1/txtt/bx/n/12 . 
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Ora
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 invece
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 concentriamo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 su
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 diverso
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 relativo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ai
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funghi,scopo
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ultimo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 questo
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 determinare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 habitat
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 cui
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funghi
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 vivono.Il
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 caratterizzato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ben
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 22
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi,
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utilizziamo
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sempre
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 stessa
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percentuali
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ed
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set.
+ []
+
+
+Overfull \hbox (207.8996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 [width=.9height=0.63]mushroom.jpg 
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 L'
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero,come
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 osservare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 grado
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 distintamente.
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Tale
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 risultato
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 essere
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 conseguenza
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fatto
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 usato
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sia
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 troppo
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 piccolo,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quindi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 capace
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 permettere
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 discriminare
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 appieno
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 scelta,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 oppure
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utilizzati
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sono
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 abbastanza
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rappresentativi,
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riuscendo
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificare
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 appieno
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 vari
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quindi
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 bisognerebbe
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 introdurre
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 altri
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 oppure
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 modificare
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quelli
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 usati,in
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 questo
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 stato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 portare
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 decisioni
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 includenti.
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Come
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 osservare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dai
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 2
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 data
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alto
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi,
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 detto
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 porti
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 spiegare
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tutti
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi,
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 infatti
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 relativo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ai
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funghi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utilizza
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tutte
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 caratteristiche
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ma
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 solo
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alcune,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quelle
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 contenuto
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 informativo
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 più
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alto,
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 abolendo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 altre,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 però
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funghi
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 molto
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 probabilmente
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riuscirà
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 darci
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 buoni
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 risultati
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 anche
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 casi
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sconosciuti
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 essendo
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 molto
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 generico,
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quello
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 degli
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 iris
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 no.
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 In
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 questo
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 mostreremo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 variare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 data
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 cambiamento
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 valore
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 della
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 performance
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 visualizzando
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tramite
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 grafico.
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 data
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 andremo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ad
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utilizzare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 stato
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 preso
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 censimento,
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 identificare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 le
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 persone
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 guadagnano
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 più
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 cinquanta
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 mila
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dollari
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 all'
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 anno.
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Le
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 righe
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 codice
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 adibite
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 generazione
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 grafico
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sono
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quelle
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 scritte
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 questa
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funzione:
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 def
+ []
+
+
+Overfull \hbox (119.69977pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fperformance(data):
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 testc=data
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percent=10
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 p=[]
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 perc=[]
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 t=[]
+ []
+
+
+Overfull \hbox (296.09943pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numdati=(int)((float)(len(testc))/100*percent);
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 for
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 range(0,5):
+ []
+
+
+Overfull \hbox (264.59949pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 (train,testc)=createdataset(testc,numdati)
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 t=t+train;
+ []
+
+
+Overfull \hbox (107.0998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tree=buildtree(t)
+ []
+
+
+Overfull \hbox (182.69965pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 p=p+[performance(tree,testc)]
+ []
+
+
+Overfull \hbox (119.69977pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 perc=perc+[percent]
+ []
+
+
+Overfull \hbox (119.69977pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percent=percent+10;
+ []
+
+
+Overfull \hbox (170.09967pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 line,=plt.plot(perc,p,'r-')
+ []
+
+
+Overfull \hbox (144.89972pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 plt.xlabel('percentuale
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training')
+ []
+
+
+Overfull \hbox (144.89972pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 plt.ylabel('percentuale
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 successi')
+ []
+
+
+Overfull \hbox (178.55283pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 line.set$[]\OML/cmm/m/it/10 ntialiased\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 False\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 plt:show\OT1/cmr/m/n/10 ()$
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funzione
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 essenzialmente
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dopo
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aver
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fatto
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 copia
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 passati,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fatto
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 paio
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 inizializzazione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 liste
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 occorrono
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 plot
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dei
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aver
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 determinato
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 elementi
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aggiungere
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set(togliendoli
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set),
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 iterativamente
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 5
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 volte
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 divide
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 in
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 train
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 set,
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dopo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 train
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 viene
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 assegnata
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ad
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 una
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 lista
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 t
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 incrementa
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ad
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ogni
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 variazione
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 scritta
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 su
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 file
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 da
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 createdataset,
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 viene
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 costruito
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 se
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ne
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 calcola
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 valore
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 performance,
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 richiamando
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 suo
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 interno
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 funzione
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classify
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ritorna
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificazione
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fatta
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dall
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 '
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 confrontandoli
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 valore
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 se
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riuscito
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificare
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 bene
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 allora
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 avrà
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 riscontro
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 positivo,
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 altrimenti
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 negativo,
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fine
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 performance
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ritorna
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percentuale
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 positivi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sul
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 numero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 test
+ []
+
+
+Overfull \hbox (94.49982pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 effettuati.Dopo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aggiungono
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 i
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 punti
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 linea
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 plot
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fine
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 viene
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 mostrata
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 su
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 schermo,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempio
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 curva
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 questo:
+ []
+
+
+Overfull \hbox (170.09967pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 [scale=0.86]performance.png
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Come
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 vede
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 grafico
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 nostra
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percentuale
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 apprendimento
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 migliora
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fino
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 40%
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dopodiché
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 percepisce
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 degrado
+ []
+
+
+Overfull \hbox (113.39978pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'apprendimento
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quando
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 arriviamo
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 50%
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dati
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 utilizzati
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 per
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training-set. 
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Su
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 tale
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 risultato
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 siamo
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 giunti
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alla
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 seguente
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 considerazione
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 "
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 aumentando
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training-set
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 costruito
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 albero
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 più
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 specifico
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 e
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 conseguenza
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 meno
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 capacità
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 classificare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 esempi
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ".
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Dalla
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 figura
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 mostra
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'andamento
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 della
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 curva
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 apprendimento,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 intuisce
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (100.7998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rappresentazione
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'ambiente
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 così
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 descritto
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dai
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dataset
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ridondante.
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Infatti
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 crescita
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 lenta,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 crescere
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 training-set
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dal
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 10%
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 al
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 50%
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 evince
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 l'aumento
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 circa
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 del
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 1%.
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 Per
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 migliorare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 la
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rapidità
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 della
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 curva
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 performance
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'albero
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 decisione
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (62.99988pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 potrebbero
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rimuovere
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 alcuni
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi,se
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 è
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 sicuri
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 della
+ []
+
+
+Overfull \hbox (107.0998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rappresentazione,
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 testando
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 altre
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 configurazioni
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ambiente
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 fino
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 a
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 vediamo
+ []
+
+
+Overfull \hbox (81.89984pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 miglioramenti
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 evidenti
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 nell'
+ []
+
+
+Overfull \hbox (88.19983pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 apprendimento,
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 se
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ciò
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 non
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 avviene
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 si
+ []
+
+
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 può
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 pensare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 di
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 cambiare
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 gli
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 attributi
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 pensiamo
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ridondati
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 o
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 quelli
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 che
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ci
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 danno
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 un
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 basso
+ []
+
+
+Overfull \hbox (56.69989pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 contenuto
+ []
+
+
+Overfull \hbox (75.59985pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 informativo,
+ []
+
+
+Overfull \hbox (18.89996pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 con
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 altri
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 o
+ []
+
+
+Overfull \hbox (69.29987pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 addirittura
+ []
+
+
+Overfull \hbox (37.79993pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 rifare
+ []
+
+
+Overfull \hbox (12.59998pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 il
+ []
+
+
+Overfull \hbox (44.09991pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 modello
+ []
+
+
+Overfull \hbox (31.49994pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 dell'
+ []
+
+
+Overfull \hbox (50.3999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 ambiente
+ []
+
+
+Overfull \hbox (6.29999pt too wide) in paragraph at lines 98--147
+\T1/txtt/bx/n/12 .
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 			U
+          n agente in grado di apprendere mediante alberi di decisione fonda...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no � in font cmbx10!
 Missing character: There is no � in font cmbx10!
 ! Undefined control sequence.
-l.94 		\subsection
-                  {}
+l.150 		\subsection
+                   {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1101,8 +6516,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.96 	\section
-              {Esercizio 2}
+l.152 	\section
+               {Esercizio 2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1113,17 +6528,17 @@ Missing character: There is no � in font cmbx10!
 Missing character: There is no � in font cmbx10!
 )
 ! Emergency stop.
-<*> esercitazione1.tex
-                      
+<*> ./esercitazione1.tex
+                        
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 58 strings out of 494934
- 875 string characters out of 6180556
- 58568 words of memory out of 5000000
- 3447 multiletter control sequences out of 15000+600000
- 5256 words of font info for 19 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 19i,4n,17p,1226b,105s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64 strings out of 493333
+ 967 string characters out of 3129275
+ 77840 words of memory out of 3000000
+ 3682 multiletter control sequences out of 15000+200000
+ 5615 words of font info for 20 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,4n,17p,1213b,144s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
