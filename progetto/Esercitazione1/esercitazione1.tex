@@ -40,7 +40,10 @@
 	\section{Esercizio 1}
 		\label{sec:es1}
 		\subsection{}
-		Un albero di decisione è un grafo delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente. La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri. Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
+		
+		%io non direi grafo a finale un albero e' una sorta di specializzazione di un grafo
+		Un albero di decisione è un grafo delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Rappresenta un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente.\newline La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri.%parlerei anche di bonta' dell'apprendimento dicendo che se dai piu' dat apprende di piu'  e blablabla
+		 Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
 		
 		Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi.
 		%\begin{itemize}
@@ -49,7 +52,7 @@
 		%	\item lunghezza del petalo
 		%	\item larghezza del petalo
 		%\end{itemize}
-		Queste grandezze sono dimensionalmente espresse tutte in cm. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso. Gli esempi del dataset si presentano nella forma:
+		Queste grandezze sono dimensionalmente espresse tutte in cm. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso.\newline Gli esempi del dataset si presentano nella forma:
 		\lstinputlisting[lastline=1]{iris.txt}
 		Abbiamo, dunque, determinato i valori di ciascun esempio attraverso le virgole delimitatorie, riconosciuto i valori numerici (precedentemente visti come stringhe) definendoli come tali ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.
 		\newline
@@ -69,21 +72,21 @@
 		Campione di esempio formattato:
 		\lstinputlisting[lastline=1]{irisformattato.txt}
 		
-		Decidiamo di usare un 
-		40\% per il training, quindi per l' apprendimento, ed un 60 \% per il test.
+		Decidiamo di usare il 40\% dei dati forniti dal dataset per il training, quindi per l' apprendimento, ed un 60 \% per il test.
 		%espresse in cm.La dimensione complessiva del dataset che abbiamo utilizzato e' di 150 elementi. Nel primo test del codice che abbiamo effettuato abbiamo deciso di utilizzare il ... tali set di dati sono costruiti automaticamente da una funzione da noi scritta che crea i data set scegliendo elementi random
 		\includegraphics[scale=0.37]{iris.jpg}
 		
-		 Come si %evince
-		  vede dalla figura, il nodo scelto come radice è la terza colonna(colonna numero 2 da programma, perché la numerazione effettuata dal codice della classificazione rimarca quella delle liste in python) ed il valore che  minimizza la funzione d' entropia è 3.6, infatti ci permette di caratterizzare già 16 esempi.L'albero con l' informazioni di training, riesce a classificare tutti gli esempi, anche se il contenuto informativo non è alto, perché come vediamo, un attributo non riesce a caratterizzare nettamente un gruppo di esempi,infatti più volte sono richiamati per splittare nuovamente i dati, aumentando così la profondità dell' albero.Quest' ultimo,per tale ragione non è generico, molto probabilmente %se gli carichiamo un dataset con dati molto diversi da quelli con cui e' stato effettuato il training non ci offrira' ottimi risultati...
-		  non ci offrirà ottimi risultati con dati a lui sconosciuti, si potrebbe pensare di applicare una potatura per renderlo più semplice, affinché da poter rispettare il rasoio di Okam.
+		 Come si evince dalla figura, il nodo scelto come radice è la terza colonna(colonna numero 2 da programma, perché la numerazione effettuata dal codice della classificazione rimarca quella delle liste in python) ed il valore che  minimizza la funzione d' entropia è 3.6, infatti ci permette di caratterizzare già 16 esempi.
+		  L'albero con le informazioni di training, riesce a classificare tutti gli esempi, anche se il contenuto informativo degli attribbuti non è alto, perché come vediamo, un attributo non riesce a caratterizzare nettamente un gruppo di esempi.Infatti più volte sono richiamati gli stessi attribbuti per splittare nuovamente i dati, aumentando così la profondità dell' albero. \newline Quest' ultimo,per tale ragione non può essere considerato generico, molto probabilmente se utlizziamo per il test un test-set contenete dati molto diversi da quelli con cui è stato effettuato il training non ci offrira' ottimi risultati. 
+		  \newline Una soluzione a tale problema potrebbe essere l'applicazione di una potatura su alcuni rami, in modo tale da renderlo più semplice.
+		  \newline Tale soluzione ha come fondamenta l'enunciato di Okam, anche conosciuto come  \textbf{\textit{rasoio di Okam}}.
 		\newline
 		\newline
 		%li separeri come paragrafo uno chiamerei iris e uno fughi 
-		Ora invece ci concentriamo su un diverso data set relativo ai funghi per determinare l' habitat in cui vivono, caratterizzato da ben 22 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
+		Ora invece ci concentriamo su un diverso dataset relativo ai funghi,scopo ultimo di questo dataset è determinare l' habitat in cui i funghi vivono.Il dataset è caratterizzato da ben 22 attributi, utilizziamo sempre la stessa percentuali di dati per il training ed il test set.
 		\includegraphics[width=.9\textwidth, height=0.63\textheight]{mushroom.jpg}		
-		L' albero,come si può osservare non è in grado di classificare gli esempi distintamente.
-		%in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo. 
+		\newline L' albero,come si può osservare non è in grado di classificare gli esempi distintamente.
+		%in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portavano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo. 
 	    Tale risultato può essere conseguenza dal fatto che il numero di esempi usato per il training sia troppo piccolo, quindi non capace di permettere di discriminare appieno una scelta, oppure gli attributi utilizzati non sono abbastanza rappresentativi, non riuscendo a classificare appieno i vari esempi, quindi bisognerebbe introdurre altri attributi oppure modificare quelli usati,in questo stato l' albero può portare a decisioni includenti.
 	    Come si può osservare dai 2 esempi di data set, un alto numero di attributi, non è detto che ci porti a spiegare tutti gli esempi, infatti l' albero relativo ai funghi non utilizza tutte le caratteristiche ma solo alcune, quelle con un contenuto informativo più alto, abolendo le altre, però l' albero dei funghi molto probabilmente riuscirà a darci buoni risultati anche con casi sconosciuti essendo molto generico, quello degli iris no.
 		\subsection{}
@@ -118,7 +121,7 @@
 		Come si vede dal grafico la nostra percentuale di apprendimento migliora fino al 40\% dopodiché si percepisce un degrado dell'apprendimento quando arriviamo al 50\% di dati utilizzati per il training-set.
 		\newline
 		 Su tale risultato siamo giunti alla seguente considerazione " aumentando il training-set si è costruito un albero più specifico e di conseguenza  con meno capacità di classificare gli esempi ".
-		 Dalla figura che mostra l'andamento della curva di apprendimento, si intuisce che la rappresentazione dell'ambiente così descritto dai data-set è ridondante.
+		 Dalla figura che mostra l'andamento della curva di apprendimento, si intuisce che la rappresentazione dell'ambiente così descritto dai dataset è ridondante.
 		  Infatti la crescita è lenta, al crescere del training-set dal 10\% al 50\% si evince che l'aumento è di circa del 1\%.
 		  Per migliorare la rapidità della curva di performance dell'albero di decisione si potrebbero rimuovere alcuni attributi,se si è sicuri della rappresentazione, testando altre configurazioni dell' ambiente fino a che non vediamo miglioramenti evidenti nell' apprendimento, se ciò non avviene si può pensare di cambiare gli attributi che pensiamo ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
 		\subsection{}
