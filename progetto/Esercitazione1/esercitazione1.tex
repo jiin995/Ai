@@ -55,7 +55,7 @@
 		Queste grandezze sono dimensionalmente espresse tutte in cm. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso.\newline Gli esempi del dataset si presentano nella forma:
 		\lstinputlisting[lastline=1]{iris.txt}
 		Abbiamo, dunque, determinato i valori di ciascun esempio attraverso le virgole delimitatorie, riconosciuto i valori numerici (precedentemente visti come stringhe) definendoli come tali ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.
-		\newline
+		\medskip
 		\begin{python}
 		def aprifile(fil="nomefile.txt"):
 			data=[]
@@ -69,10 +69,29 @@
 				data=data+[srt];
 			return data
 		\end{python}
-		Campione di esempio formattato:
+		\bigskip
+		Un campione di esempio formattato si presenterà, dunque, nella forma:
 		\lstinputlisting[lastline=1]{irisformattato.txt}
+
 		
 		Decidiamo di usare il 40\% dei dati forniti dal dataset per il training, quindi per l' apprendimento, ed un 60 \% per il test.
+		Per la determinazione di training set e test set si è utilizzata una funzione che selezioni un insieme casuale di esempi dal data set di partenza, con cardinalità determinata dai parametri di ingresso.
+		\bigskip
+		\begin{python}
+		def createdataset(data,numdati):
+			tr=[]
+			te=[]
+			t=[]
+			for i in range(0,numdati):
+				t=random.choice(data);
+				tr=tr+[t]
+				num=data.index(t)
+				del data[num]
+			te=data
+			return(tr,te)
+		\end{python}
+		Decidiamo di usare un 
+		40\% per il training, quindi per l' apprendimento, ed un 60 \% per il test.
 		%espresse in cm.La dimensione complessiva del dataset che abbiamo utilizzato e' di 150 elementi. Nel primo test del codice che abbiamo effettuato abbiamo deciso di utilizzare il ... tali set di dati sono costruiti automaticamente da una funzione da noi scritta che crea i data set scegliendo elementi random
 		\includegraphics[scale=0.37]{iris.jpg}
 		
@@ -102,7 +121,7 @@
 			t=[]
 			numdati=(int)((float)(len(testc))/100*percent);
 			for i in range(0,5):
-				(train,testc)=createdataset(testc,numdati,t)
+				(train,testc)=createdataset(testc,numdati)
 				t=t+train;
 				tree=buildtree(t)
 				p=p+[performance(tree,testc)]
