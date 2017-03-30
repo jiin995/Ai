@@ -94,7 +94,7 @@
 			Alla luce di queste osservazioni possiamo giungere alla seguente considerazione: molto probabilmente questa classificazione non sarà abbastanza generalizzante ed, ipotizzando di utilizzare un test set sufficientemente vario, non ci offrirà ottimi risultati in termini di \emph{performance}. Si potrebbe, però, ricercare una maggiore generalizzazione tramite l'applicazione di tecniche di \emph{pruning}, che diminuirebbero la profondità dell'albero.\par
 			%Ho tolto il fatto del rasoio di Ockam perché mi sembrava un poco forzato: si utilizza nella scelta tra più possibilità, ma in questo caso stiamo potando deliberatamente l'albero (il concetto è simile ma con una sfumatura differente)
 		\subsubsection{Mushrooms} 
-			Analizziamo ora il data set \emph{Mushroom}, relativo ai funghi. Il fine sarà di determinarne l' habitat. Il dataset è caratterizzato da ben 21 attributi e 8124 istanze. Utilizziamo sempre le medesime percentuali di dati per il training set ed il test set (40\%-60\%).
+			Analizziamo ora il dataset \emph{Mushroom}, relativo ai funghi. Il fine sarà quello di determinarne se un fungo sia commestibile o avvelenato. Il dataset è caratterizzato da ben 21 attributi e 8124 istanze. Utilizziamo sempre le medesime percentuali di dati per il training set ed il test set (40\%-60\%).
 			
 			\begin{sidewaysfigure}
 				\includegraphics[width=1.2\textwidth, height=0.9\textheight]{mushroom.jpg}
@@ -103,11 +103,10 @@
 			\end{sidewaysfigure}
 			
 					
-			L' albero, come si può osservare dalla figura \vref{fig:mus-dt}, non è in grado di classificare gli esempi distintamente. In questo stato l'albero può portare a decisioni inconcludenti. Risultato analogo si è ottenuto al seguito di differenti esperimenti sul medesimo data set, rivelandosi tutt'altro che un \textit{unicum}. Ciò ci ha portato ad interpretare questo esito come conseguenza del fatto che gli attributi utilizzati non siano abbastanza rappresentativi, non riuscendo a classificare pienamente i vari esempi.
+			L' albero, come si può osservare dalla figura \vref{fig:mus-dt}, classifica tutti gli esempi distintamente senza utilizzare tutti gli attributi forniti dal dataset. Esso si presenta, quindi, in una forma compatta e generalizzante.\par
+			Ipotizziamo, allora, che l'albero sia stato costruito facendo uso di attributi rappresentativi con alto guadagno informativo, in grado di effettuare un chiaro split degli esempi sulla base dei valori da essi assunti.
 			
 		    %in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portavano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo.
-		    
-			Notiamo, in conclusione, che un grande numero di attributi non necessariamente porta a spiegare tutti gli esempi.
 			
 		\subsection{Esperimento: Learning Curve}
 			Per valutare l'approssimazione dell'ipotesi alla funzione ideale (\textsf{Problem of Induction}) si utilizzano delle misure di \emph{performance}, senza le quali il solo albero delle decisioni risulta un modello incompleto. La misura di performance da noi adoperata fa uso di un test set per stimare l'accuratezza del modello di apprendimento. Essa può essere descritta mediante la \textsf{Learning Curve}, che rappresenta la percentuale di correttezza sul test set rispetto alle dimensioni del training set.\par

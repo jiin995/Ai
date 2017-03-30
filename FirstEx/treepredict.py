@@ -47,8 +47,20 @@ def aprifile(fil="nomefile.txt"):
 
 #train_data=aprifile('iristraining 40%.txtaggiunta.txt')
 #test_data=aprifile('iristest 60%.txtaggiunta.txt')
-d=aprifile('adult.txt')
+d=aprifile('mushroom.txt')
 
+def cambiacolonna(data):
+  for i in data:
+    for l in range(0,len(i)):
+      if l==0:
+        var=i[l]
+        i[l]=i[22]
+        i[22]=var
+  f=open("prova.txt","w")
+  for row in data:
+    f.write("%s\n" % row)
+  f.close();   
+  
 def createdataset(data,numdati):
   #print nelement
   tr=[]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  30 MAR 2017 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  30 MAR 2017 14:56
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -738,53 +738,53 @@ Overfull \hbox (51.65137pt too wide) in paragraph at lines 89--90
 [][] 
  []
 
-[4 <./iris.jpg>] <mushroom.jpg, id=24, 1907.125pt x 923.45pt>
+[4 <./iris.jpg>] <mushroom.jpg, id=24, 1104.125pt x 622.325pt>
 File: mushroom.jpg Graphic file (type jpg)
 
 <use mushroom.jpg>
 Package pdftex.def Info: mushroom.jpg used on input line 100.
-(pdftex.def)             Requested size: 710.39767pt x 532.79732pt.
+(pdftex.def)             Requested size: 710.4283pt x 532.80559pt.
 
-Overfull \hbox (118.39767pt too wide) in paragraph at lines 100--101
+Overfull \hbox (118.4283pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
 [5] [6 <./mushroom.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 125.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 124.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 124.
 
-Overfull \hbox (8.60403pt too wide) in paragraph at lines 125--126
+Overfull \hbox (8.60403pt too wide) in paragraph at lines 124--125
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.20425pt too wide) in paragraph at lines 127--128
+Overfull \hbox (30.20425pt too wide) in paragraph at lines 126--127
 [][][][][][][][][][][][][][][] 
  []
 
 [7] <performance.png, id=37, 462.528pt x 346.896pt>
 File: performance.png Graphic file (type png)
  <use performance.png>
-Package pdftex.def Info: performance.png used on input line 156.
+Package pdftex.def Info: performance.png used on input line 155.
 (pdftex.def)             Requested size: 397.77338pt x 298.33003pt.
 
-Overfull \hbox (7.77338pt too wide) in paragraph at lines 156--157
+Overfull \hbox (7.77338pt too wide) in paragraph at lines 155--156
 [][] 
  []
 
 [8 <./performance.png>] [9]) [10] (ReportIA.aux
 (Esercitazione1/esercitazione1.aux)) ) 
 Here is how much of TeX's memory you used:
- 8425 strings out of 493335
- 122462 string characters out of 3139254
+ 8417 strings out of 493335
+ 122374 string characters out of 3139254
  251271 words of memory out of 3000000
  11733 multiletter control sequences out of 15000+200000
- 72320 words of font info for 78 fonts, out of 3000000 for 9000
+ 71918 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,43p,1170b,1456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dv
@@ -798,7 +798,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX
 1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (10 pages, 347276 bytes).
+Output written on ReportIA.pdf (10 pages, 291295 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
