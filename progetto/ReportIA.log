@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  30 MAR 2017 08:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  30 MAR 2017 14:21
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -525,37 +525,49 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box30
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
-) (ReportIA.aux
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+)) (ReportIA.aux
 (Esercitazione1/esercitazione1.aux))
 \openout1 = `ReportIA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 23.
-LaTeX Info: Redefining \it@ccap on input line 23.
-LaTeX Info: Redefining \microtypecontext on input line 23.
+LaTeX Info: Redefining \it@ocap on input line 24.
+LaTeX Info: Redefining \it@ccap on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -640,7 +652,7 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 32.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -655,7 +667,7 @@ Package microtype Info: Loading generic settings for font family
 \openout2 = `./Esercitazione1/esercitazione1.aux'.
 
  (Esercitazione1/esercitazione1.tex
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 4.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txtt.fd"
 File: t1txtt.fd 2000/12/15 v3.1
@@ -664,7 +676,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `txtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 39.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 40.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -700,29 +712,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 1.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [2
 
 
 ]
-Overfull \hbox (44.6044pt too wide) in paragraph at lines 56--57
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Overfull \hbox (44.6044pt too wide) in paragraph at lines 61--62
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (80.60477pt too wide) in paragraph at lines 58--59
+Overfull \hbox (80.60477pt too wide) in paragraph at lines 63--64
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 (irisformattato.txt) [3] <iris.jpg, id=20, 803.0pt x 622.325pt>
 File: iris.jpg Graphic file (type jpg)
  <use iris.jpg>
-Package pdftex.def Info: iris.jpg used on input line 84.
+Package pdftex.def Info: iris.jpg used on input line 89.
 (pdftex.def)             Requested size: 441.65137pt x 342.2798pt.
 
-Overfull \hbox (51.65137pt too wide) in paragraph at lines 84--85
+Overfull \hbox (51.65137pt too wide) in paragraph at lines 89--90
 [][] 
  []
 
@@ -730,51 +742,51 @@ Overfull \hbox (51.65137pt too wide) in paragraph at lines 84--85
 File: mushroom.jpg Graphic file (type jpg)
 
 <use mushroom.jpg>
-Package pdftex.def Info: mushroom.jpg used on input line 95.
+Package pdftex.def Info: mushroom.jpg used on input line 100.
 (pdftex.def)             Requested size: 710.39767pt x 532.79732pt.
 
-Overfull \hbox (118.39767pt too wide) in paragraph at lines 95--96
+Overfull \hbox (118.39767pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
 [5] [6 <./mushroom.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 125.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 125.
 
-Overfull \hbox (8.60403pt too wide) in paragraph at lines 119--120
+Overfull \hbox (8.60403pt too wide) in paragraph at lines 125--126
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.20425pt too wide) in paragraph at lines 121--122
+Overfull \hbox (30.20425pt too wide) in paragraph at lines 127--128
 [][][][][][][][][][][][][][][] 
  []
 
 [7] <performance.png, id=37, 462.528pt x 346.896pt>
 File: performance.png Graphic file (type png)
  <use performance.png>
-Package pdftex.def Info: performance.png used on input line 150.
+Package pdftex.def Info: performance.png used on input line 156.
 (pdftex.def)             Requested size: 397.77338pt x 298.33003pt.
 
-Overfull \hbox (7.77338pt too wide) in paragraph at lines 150--151
+Overfull \hbox (7.77338pt too wide) in paragraph at lines 156--157
 [][] 
  []
 
 [8 <./performance.png>] [9]) [10] (ReportIA.aux
 (Esercitazione1/esercitazione1.aux)) ) 
 Here is how much of TeX's memory you used:
- 7928 strings out of 493335
- 116674 string characters out of 3139254
- 239315 words of memory out of 3000000
- 11241 multiletter control sequences out of 15000+200000
- 72282 words of font info for 78 fonts, out of 3000000 for 9000
+ 8425 strings out of 493335
+ 122462 string characters out of 3139254
+ 251271 words of memory out of 3000000
+ 11733 multiletter control sequences out of 15000+200000
+ 72320 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,43p,1242b,1456s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,43p,1170b,1456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dv
 ips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files
@@ -786,7 +798,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX
 1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (10 pages, 346878 bytes).
+Output written on ReportIA.pdf (10 pages, 347276 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

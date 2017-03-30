@@ -1,6 +1,7 @@
 \definecolor{deepblue}{rgb}{0,0,0.5}
 \definecolor{deepred}{rgb}{0.6,0,0}
 \definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{light-gray}{gray}{0.90}
 \DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
 \DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
 
@@ -42,9 +43,13 @@
 		\subsection{Esperimento: creazione Decision Tree}
 		Un albero di decisione è un modello di rappresentazione delle decisioni e delle loro possibili conseguenze, costruito al fine di supportare l'azione decisionale. Costituisce un importante strumento nel contesto dell'\textsf{Inductive Learning}, in cui ricopre il ruolo di modello predittivo su cui si basa il comportamento dell'agente. La sua struttura discende da un insieme di esempi dati e determina le regole di condizione-azione atte alla classificazione di esempi futuri. Dunque l'agente è in grado di apprendere da una serie di dati il comportamento da assumere in situazioni non specificate.
 		\subsubsection{Iris}
-			Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a vari tipi di \emph{Iris}, caratterizzati da quattro attributi: lunghezza del sepalo, larghezza del sepalo, lunghezza del petalo, larghezza del petalo. Queste grandezze sono dimensionalmente espresse tutte in cm. Il \emph{target} è, appunto, la tipologia di Iris. La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso.\newline Gli esempi del dataset si presentano nella forma:
-			\lstinputlisting[lastline=1]{iris.txt}
-			Abbiamo, dunque, determinato i valori di ciascun esempio attraverso le virgole delimitatorie, riconosciuto i valori numerici (precedentemente visti come stringhe), definendoli come tali, ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.
+			Come primo esperimento abbiamo adoperato un insieme di dati facenti riferimento a varie specie di \emph{Iris}, le quali vengono caratterizzate da quattro attributi: lunghezza del sepalo, larghezza del sepalo, lunghezza del petalo, larghezza del petalo. Queste grandezze sono dimensionalmente espresse tutte in \emph{cm}. Il \emph{target} è, appunto, la tipologia di Iris.\par
+			La dimensione complessiva del dataset è di 150 elementi. Per effettuare la prova è stato necessario formattare l'insieme dei dati originario, rendendolo consistente con le esigenze algoritmiche correlate al linguaggio utilizzato, \emph{Python} nel nostro caso.\par
+			Gli esempi del dataset si presentano nella seguente forma:
+			\lstinputlisting[lastline=1,backgroundcolor=\color{light-gray}]{iris.txt}
+			Abbiamo, dunque, determinato i valori degli attributi per ciascun esempio in base alle virgole delimitatorie, riconosciuto i valori numerici precedentemente visti come stringhe (si è realizzato ciò mediante una funzione adibita allo scopo, sfruttante il casting) ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.\par
+			%per evitare la costruzione di un albero non corretto in quanto sulle stringe facciamo un operazione per lo slip diverso da quella per i numeri, per i numeri e' vero se e' maggiore falso altrimenti. per le stringe invece vero se e' uguale falso altrimenti 
+			Di seguito la funzione implementata per caricare gli esempi dal file nella lista utilizzata nel programma:
 			\medskip
 			\begin{python}
 		def aprifile(fil="nomefile.txt"):
@@ -60,10 +65,10 @@
 			return data
 			\end{python}
 			\bigskip
-			Un campione di esempio formattato si presenterà, dunque, nella forma:
-			\lstinputlisting[lastline=1]{irisformattato.txt}
+			Un campione di esempio formattato si presenterà, quindi, nella forma:
+			\lstinputlisting[lastline=1,backgroundcolor=\color{light-gray}]{irisformattato.txt}
 		
-			Decidiamo di usare il 40\% dei dati forniti dal data set come training set, quindi per l'apprendimento, ed il restante 60 \% per il test. Per la determinazione di training set e test set si è utilizzata una funzione che selezioni un insieme casuale di esempi dal data set di partenza, con cardinalità determinata dai parametri di ingresso in base alla percentuale desiderata.
+			Decidiamo di usare il 40\% dei dati forniti dal dataset come training set, quindi per effettuare l'apprendimento, ed il restante 60 \% per il test set. Per la determinazione di training set e test set si è utilizzata una funzione che seleziona un insieme casuale di esempi dal dataset di partenza, con cardinalità determinata dai parametri di ingresso in base alla percentuale desiderata (calcolo effettuato prima della chiamata).
 			\bigskip
 			\begin{python}
 		def createdataset(data,numdati):
@@ -86,7 +91,7 @@
 			Otteniamo, infine, l'agognato albero di decisione!\par
 			Come si evince dalla figura, il nodo scelto come radice è relativo alla terza colonna (colonna numero 2 da programma, poiché la numerazione rimarca quella delle liste in python) ed il valore che ne minimizza la funzione d'entropia è 3.6. Notiamo che questa scelta ci permette già la classificazione di 16 esempi.
 			L'albero, attraverso le informazioni del training set, classifica tutti gli esempi, anche se, evidentemente, il \emph{guadagno informativo} degli attributi non sarà alto. Osserviamo, infatti, che un attributo non riesce a caratterizzare nettamente un gruppo di esempi. Conseguentemente, ciascuno di essi viene richiamato più volte per lo \emph{split} dei dati, aumentando inevitabilmente la profondità dell' albero.\par
-			Alla luce di queste considerazioni, molto probabilmente questa classificazione non sarà abbastanza generalizzante ed, ipotizzando di utilizzare un test set sufficientemente vario, non ci offrirà ottimi risultati in termini di \emph{performance}. Si potrebbe, però, ricercare una maggiore generalizzazione tramite l'applicazione di tecniche di \emph{pruning}, che diminuirebbero la profondità dell'albero.\par
+			Alla luce di queste osservazioni possiamo giungere alla seguente considerazione: molto probabilmente questa classificazione non sarà abbastanza generalizzante ed, ipotizzando di utilizzare un test set sufficientemente vario, non ci offrirà ottimi risultati in termini di \emph{performance}. Si potrebbe, però, ricercare una maggiore generalizzazione tramite l'applicazione di tecniche di \emph{pruning}, che diminuirebbero la profondità dell'albero.\par
 			%Ho tolto il fatto del rasoio di Ockam perché mi sembrava un poco forzato: si utilizza nella scelta tra più possibilità, ma in questo caso stiamo potando deliberatamente l'albero (il concetto è simile ma con una sfumatura differente)
 		\subsubsection{Mushrooms} 
 			Analizziamo ora il data set \emph{Mushroom}, relativo ai funghi. Il fine sarà di determinarne l' habitat. Il dataset è caratterizzato da ben 21 attributi e 8124 istanze. Utilizziamo sempre le medesime percentuali di dati per il training set ed il test set (40\%-60\%).
@@ -107,7 +112,8 @@
 		\subsection{Esperimento: Learning Curve}
 			Per valutare l'approssimazione dell'ipotesi alla funzione ideale (\textsf{Problem of Induction}) si utilizzano delle misure di \emph{performance}, senza le quali il solo albero delle decisioni risulta un modello incompleto. La misura di performance da noi adoperata fa uso di un test set per stimare l'accuratezza del modello di apprendimento. Essa può essere descritta mediante la \textsf{Learning Curve}, che rappresenta la percentuale di correttezza sul test set rispetto alle dimensioni del training set.\par
 			In questo esperimento ci porremo, quindi, come obiettivo la ricerca di una curva di apprendimento. Si è scelto, al fine di preservare un test set consistente, di attribuire al training set dal 10\% fino al 50\% dell'intero data set.
-			Il data set impiegato è inerente ad un censimento atto ad identificare gli individui con reddito superiore ai cinquanta mila dollari annui. La curva è stata prodotta facendo uso della funzione \texttt{fperformance}, che si avvale, a sua volta, di una funzione \texttt{performance}, per il calcolo dell'\emph{accuracy}, e della libreria \textbf{matplotlib}, per il tracciamento del grafico in questione. Al seguito di una fase iniziale, prevedente l'inizializzazione delle variabili (test set massimo) e la determinazione del numero di esempi corrispondete al 10\% del data set, si procede con un ciclo di 5 iterazioni che implementa l'intera logica. Ad ogni ciclo, \texttt{createdataset} drena il 10\% del test set nel training set (memorizzato iterativamente nella lista \texttt{t}). Segue la creazione dell'albero, il calcolo della sua accuratezza, di cui la lista \texttt{p} memorizza i differenti valori da porre sull'asse delle ordinate, e l'aggiornamento della lista \texttt{perc}, che memorizza i valori dell'asse delle ascisse. Al termine del ciclo ci si avvale delle funzioni offerte dalla libreria per la rappresentazione grafica della curva.
+			Il data set impiegato è inerente ad un censimento atto ad identificare gli individui con reddito superiore ai cinquanta mila dollari annui.\par
+			La curva è stata prodotta facendo uso della funzione \texttt{fperformance}, che si avvale, a sua volta, di una funzione \texttt{performance} per il calcolo dell'\emph{accuracy}, e della libreria \textbf{matplotlib} per il tracciamento del grafico in questione. Al seguito di una fase iniziale, prevedente l'inizializzazione delle variabili (test set massimo) e la determinazione del numero di esempi corrispondete al 10\% del dataset, si procede con un ciclo di 5 iterazioni che implementa l'intera logica. Ad ogni ciclo, \texttt{createdataset} drena il 10\% del test set nel training set (memorizzato iterativamente nella lista \texttt{t}). Segue la creazione dell'albero, il calcolo della sua accuratezza, di cui la lista \texttt{p} memorizza i differenti valori da porre sull'asse delle ordinate, e l'aggiornamento della lista \texttt{perc}, che memorizza i valori dell'asse delle ascisse. Al termine del ciclo ci si avvale delle funzioni offerte dalla libreria per la rappresentazione grafica della curva.
 			\bigskip
 			\begin{python}
 		def fperformance(data):
@@ -144,17 +150,18 @@
 			\bigskip
 	%passiamo ora a descrivere cosa fa questa funzione come prima cosa effettua una copia del dataset che gli e' stato ricevuto dopodiche' inizializza una serie di liste a supporto delle operazioni successive. farei una descrizione per linee di codice, metterei il codice per riga sia sopra che sotto commentando
 		
-			Abbiamo fatto uso della funzione \texttt{performance} per il calcolo dell'accuratezza. Essa effettua, tramite l'albero, la classificazione per ogni esempio del test set (esito in una variabile dizionario \texttt{results}) e conteggia nel caso in cui il risultato ottenuto sia coerente con il relativo \emph{target}. Si ottiene, infine, la percentuale di correttezza sul test set tramite il rapporto tra gli esempi correttamente classificati e quelli totali.\par
-			Visualizziamo graficamente il prodotto di questo algoritmo sul data set di riferimento.
+			Abbiamo fatto uso della funzione \texttt{performance} per il calcolo dell'accuratezza. Essa effettua, tramite l'albero, la classificazione per ogni esempio del test set (esito in una variabile dizionario \texttt{results}) ed effettua un conteggio nel caso in cui il risultato ottenuto sia coerente con il relativo \emph{target}. Si ottiene, infine, la percentuale di correttezza sul test set tramite il rapporto tra gli esempi correttamente classificati e quelli totali.\par
+			Visualizziamo graficamente il prodotto di questo algoritmo sul dataset di riferimento.
 			
 			\includegraphics[scale=0.86]{performance.png}
 			 
 			Come si evince dal grafico, la nostra accuratezza migliora fino al 40\%, dopodiché si percepisce un degrado dell'apprendimento all'aumentare dei dati forniti al training set. Abbiamo interpretato questo andamento supponendo che, con l'incremento di quest'ultimo, si venga a costituire un albero più specifico (\emph{overfitting}), ovvero con meno capacità di classificare gli esempi.\par
-			Osservando la curva di apprendimento, si è ipotizzato che questa rappresentazione dell'ambiente descritto dal data set presenti un'espressività ridondante. Ciò è stato dedotto dall'analisi della crescita, lenta nell'intervallo di riferimento: al crescere del training set dal 10\% al 50\% si rileva un aumento massimo di circa 1\%. Per migliorare la rapidità della curva si potrebbe considerare un insieme ridotto di attributi, ricercando una rappresentazione, mediante albero di decisione, più compatta. Nella determinazione degli attributi si  dovrebbe tentare di evitare la ridondanza, eventualmente focalizzandosi su quelli più rappresentativi e con un alto guadagno informativo.
+			Osservando la curva di apprendimento, si è ipotizzato che questa rappresentazione dell'ambiente descritto dal dataset presenti un'espressività ridondante. Ciò è stato dedotto dall'analisi della crescita, lenta nell'intervallo di riferimento: al crescere del training set dal 10\% al 50\% si rileva un aumento massimo di circa 1\%. Per migliorare la rapidità della curva si potrebbe considerare un insieme ridotto di attributi, ricercando una rappresentazione, mediante albero di decisione, più compatta. Nella determinazione degli attributi si  dovrebbe tentare di evitare la ridondanza, eventualmente focalizzandosi su quelli più rappresentativi e con un alto guadagno informativo.
 			
 			%se ciò non avviene si può pensare di cambiare gli attributi che pensiamo essere ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
 		\subsection{Domanda 1}
 			Un agente in grado di apprendere mediante alberi di decisione fonda questo suo processo su principi di apprendimento induttivo (\textsf{inductive learning}). L'apprendimento induttivo è una forma di apprendimento basata sull'induzione a partire da esempi dati. Esso, data una collezione di esempi (\textsf{training set}) della funzione \textsf{target} \emph{f} che si vorrebbe imparare, mira a restituire una funzione \emph{h} (\textsf{hypothesis}) che approssimi al meglio la \emph{f}. Concettualmente, il criterio nella determinazione di \emph{h} tra le differenti funzioni dello spazio delle ipotesi dovrebbe essere legato, più che alla consistenza nello spiegare i dati, alla bontà dell'approssimazione e quindi alla capacità di generalizzazione per predire esempi non ancora incontrati. In questo senso, l'agente agisce in modo razionale poichè cerca di \textbf{decidere come comportarsi in situazioni a lui sconosciute basandosi su quelle già note}. Possiamo individuare proprio in questo aspetto una \textbf{forma di intelligenza}, determinata dall'agire razionalmente.
+		\bigskip
 		\subsection{Domanda 2}
 			Le procedure di \textsf{Decision Tree Learning} consentono la costruzione di un albero di decisione "piccolo", consistente con gli esempi forniti in input per la determinazione di tale struttura. Ogni nodo interno all'albero corrisponde ad una condizione sul valore di un attributo, gli archi verso i nodi figli ai possibili valori per quell'attributo, le foglie alla classificazione. Si ottiene così, attraverso i \textsf{path} dell'albero, una rappresentazione compatta delle regole di condizione-azione. L'albero di decisione prende in input una situazione descritta da un insieme di attributi e restituisce una decisione, ovvero il valore predetto di uscita per tale input, sulla base del cammino percorso. In questo senso possiamo parlare di apprendimento, poiché, \textbf{alla luce di un dato insieme di esempi, si viene a costituire un albero di decisione dalla ben determinata topologia e legge condizione-azione, utilizzabile per la classificazione di esempi futuri}.
 	\section{Esercizio 2: Problem Solving}
