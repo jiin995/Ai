@@ -1,39 +1,3 @@
-\definecolor{deepblue}{rgb}{0,0,0.5}
-\definecolor{deepred}{rgb}{0.6,0,0}
-\definecolor{deepgreen}{rgb}{0,0.5,0}
-\definecolor{light-gray}{gray}{0.90}
-\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
-\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
-
-
-\newcommand\realnumberstyle[1]{}
-
-
-% Python style for highlighting
-\newcommand\pythonstyle{\lstset{
-		language=Python,
-		basicstyle=\ttm,
-		otherkeywords={self},             % Add keywords here
-		keywordstyle=\ttb\color{deepblue},
-		emph={MyClass,__init__},          % Custom highlighting
-		emphstyle=\ttb\color{deepred},    % Custom highlighting style
-		stringstyle=\color{deepgreen},
-		frame=tb,                         % Any extra options here
-		showstringspaces=false 
-		xleftmargin=\dimexpr\fboxsep-\fboxrule,
-		xrightmargin=\dimexpr\fboxsep-\fboxrule,
-		gobble=16 ,
-		numbers=left
-	}}
-	
-	
-	% Python environment
-	\lstnewenvironment{python}[1][]
-	{
-		\pythonstyle
-		\lstset{#1}
-	}
-	{}
 \raggedright
 \mychapter{1}{Work Project 1}
 	\label{ch:dt}
@@ -48,7 +12,6 @@
 			Gli esempi del dataset si presentano nella seguente forma:
 			\lstinputlisting[lastline=1,backgroundcolor=\color{light-gray}]{iris.txt}
 			Abbiamo, dunque, determinato i valori degli attributi per ciascun esempio in base alle virgole delimitatorie, riconosciuto i valori numerici precedentemente visti come stringhe (si è realizzato ciò mediante una funzione adibita allo scopo, sfruttante il casting) ed eliminato eventualmente il carattere di \textit{new line} al fine di evitare valori spuri.\par
-			%per evitare la costruzione di un albero non corretto in quanto sulle stringe facciamo un operazione per lo slip diverso da quella per i numeri, per i numeri e' vero se e' maggiore falso altrimenti. per le stringe invece vero se e' uguale falso altrimenti 
 			Di seguito la funzione implementata per caricare gli esempi dal file nella lista utilizzata nel programma:
 			\medskip
 			\begin{python}
@@ -92,7 +55,6 @@
 			Come si evince dalla figura, il nodo scelto come radice è relativo alla terza colonna (colonna numero 2 da programma, poiché la numerazione rimarca quella delle liste in python) ed il valore che ne minimizza la funzione d'entropia è 3.6. Notiamo che questa scelta ci permette già la classificazione di 16 esempi.
 			L'albero, attraverso le informazioni del training set, classifica tutti gli esempi, anche se, evidentemente, il \emph{guadagno informativo} degli attributi non sarà alto. Osserviamo, infatti, che un attributo non riesce a caratterizzare nettamente un gruppo di esempi. Conseguentemente, ciascuno di essi viene richiamato più volte per lo \emph{split} dei dati, aumentando inevitabilmente la profondità dell' albero.\par
 			Alla luce di queste osservazioni possiamo giungere alla seguente considerazione: molto probabilmente questa classificazione non sarà abbastanza generalizzante ed, ipotizzando di utilizzare un test set sufficientemente vario, non ci offrirà ottimi risultati in termini di \emph{performance}. Si potrebbe, però, ricercare una maggiore generalizzazione tramite l'applicazione di tecniche di \emph{pruning}, che diminuirebbero la profondità dell'albero.\par
-			%Ho tolto il fatto del rasoio di Ockam perché mi sembrava un poco forzato: si utilizza nella scelta tra più possibilità, ma in questo caso stiamo potando deliberatamente l'albero (il concetto è simile ma con una sfumatura differente)
 		\subsubsection{Mushrooms} 
 			Analizziamo ora il dataset \emph{Mushroom}, relativo ai funghi. Il fine sarà quello di determinarne se un fungo sia commestibile o avvelenato. Il dataset è caratterizzato da ben 21 attributi e 8124 istanze. Utilizziamo sempre le medesime percentuali di dati per il training set ed il test set (40\%-60\%).
 			
@@ -104,10 +66,7 @@
 			
 					
 			L' albero, come si può osservare dalla figura \vref{fig:mus-dt}, classifica tutti gli esempi distintamente senza utilizzare tutti gli attributi forniti dal dataset. Esso si presenta, quindi, in una forma compatta e generalizzante.\par
-			Ipotizziamo, allora, che l'albero sia stato costruito facendo uso di attributi rappresentativi con alto guadagno informativo, in grado di effettuare un chiaro split degli esempi sulla base dei valori da essi assunti.
-			
-		    %in seguito a vari test effettuati con diversi elementi che componevano il training set, i risultati sono appartsi sempre inconcludenti in quanto c'era sempre un numero di nodi maggiore di 3 che portavano a decisioni ambuigue, nel nodo foglia c'erano piu' risultati.Per tanto visto che stiamo studiando tale materia abbiamo deciso di soffermarci su tali risultati giungendo alle seguenti conclusioni enumerato quello che sta dopo.
-			
+			Ipotizziamo, allora, che l'albero sia stato costruito facendo uso di attributi rappresentativi con alto guadagno informativo, in grado di effettuare un chiaro split degli esempi sulla base dei valori da essi assunti.	
 		\subsection{Esperimento: Learning Curve}
 			Per valutare l'approssimazione dell'ipotesi alla funzione ideale (\textsf{Problem of Induction}) si utilizzano delle misure di \emph{performance}, senza le quali il solo albero delle decisioni risulta un modello incompleto. La misura di performance da noi adoperata fa uso di un test set per stimare l'accuratezza del modello di apprendimento. Essa può essere descritta mediante la \textsf{Learning Curve}, che rappresenta la percentuale di correttezza sul test set rispetto alle dimensioni del training set.\par
 			In questo esperimento ci porremo, quindi, come obiettivo la ricerca di una curva di apprendimento. Si è scelto, al fine di preservare un test set consistente, di attribuire al training set dal 10\% fino al 50\% dell'intero data set.
@@ -147,7 +106,6 @@
 			return percent
 			\end{python}
 			\bigskip
-	%passiamo ora a descrivere cosa fa questa funzione come prima cosa effettua una copia del dataset che gli e' stato ricevuto dopodiche' inizializza una serie di liste a supporto delle operazioni successive. farei una descrizione per linee di codice, metterei il codice per riga sia sopra che sotto commentando
 		
 			Abbiamo fatto uso della funzione \texttt{performance} per il calcolo dell'accuratezza. Essa effettua, tramite l'albero, la classificazione per ogni esempio del test set (esito in una variabile dizionario \texttt{results}) ed effettua un conteggio nel caso in cui il risultato ottenuto sia coerente con il relativo \emph{target}. Si ottiene, infine, la percentuale di correttezza sul test set tramite il rapporto tra gli esempi correttamente classificati e quelli totali.\par
 			Visualizziamo graficamente il prodotto di questo algoritmo sul dataset di riferimento.
@@ -156,8 +114,6 @@
 			 
 			Come si evince dal grafico, la nostra accuratezza migliora fino al 40\%, dopodiché si percepisce un degrado dell'apprendimento all'aumentare dei dati forniti al training set. Abbiamo interpretato questo andamento supponendo che, con l'incremento di quest'ultimo, si venga a costituire un albero più specifico (\emph{overfitting}), ovvero con meno capacità di classificare gli esempi.\par
 			Osservando la curva di apprendimento, si è ipotizzato che questa rappresentazione dell'ambiente descritto dal dataset presenti un'espressività ridondante. Ciò è stato dedotto dall'analisi della crescita, lenta nell'intervallo di riferimento: al crescere del training set dal 10\% al 50\% si rileva un aumento massimo di circa 1\%. Per migliorare la rapidità della curva si potrebbe considerare un insieme ridotto di attributi, ricercando una rappresentazione, mediante albero di decisione, più compatta. Nella determinazione degli attributi si  dovrebbe tentare di evitare la ridondanza, eventualmente focalizzandosi su quelli più rappresentativi e con un alto guadagno informativo.
-			
-			%se ciò non avviene si può pensare di cambiare gli attributi che pensiamo essere ridondati o quelli che ci danno un basso contenuto informativo, con altri o addirittura rifare il modello dell' ambiente . 
 		\subsection{Domanda 1}
 			Un agente in grado di apprendere mediante alberi di decisione fonda questo suo processo su principi di apprendimento induttivo (\textsf{inductive learning}). L'apprendimento induttivo è una forma di apprendimento basata sull'induzione a partire da esempi dati. Esso, data una collezione di esempi (\textsf{training set}) della funzione \textsf{target} \emph{f} che si vorrebbe imparare, mira a restituire una funzione \emph{h} (\textsf{hypothesis}) che approssimi al meglio la \emph{f}. Concettualmente, il criterio nella determinazione di \emph{h} tra le differenti funzioni dello spazio delle ipotesi dovrebbe essere legato, più che alla consistenza nello spiegare i dati, alla bontà dell'approssimazione e quindi alla capacità di generalizzazione per predire esempi non ancora incontrati. In questo senso, l'agente agisce in modo razionale poichè cerca di \textbf{decidere come comportarsi in situazioni a lui sconosciute basandosi su quelle già note}. Possiamo individuare proprio in questo aspetto una \textbf{forma di intelligenza}, determinata dall'agire razionalmente.
 		\bigskip

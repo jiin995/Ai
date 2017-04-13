@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  30 MAR 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  13 APR 2017 19:44
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -544,30 +544,35 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
-)) (ReportIA.aux
-(Esercitazione1/esercitazione1.aux))
+))
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 29.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txtt.fd"
+File: t1txtt.fd 2000/12/15 v3.1
+) (ReportIA.aux
+(Esercitazione2/esercitazione2.aux))
 \openout1 = `ReportIA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 61.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 24.
-LaTeX Info: Redefining \it@ccap on input line 24.
-LaTeX Info: Redefining \microtypecontext on input line 24.
+LaTeX Info: Redefining \it@ocap on input line 61.
+LaTeX Info: Redefining \it@ccap on input line 61.
+LaTeX Info: Redefining \microtypecontext on input line 61.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -652,7 +657,7 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 70.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -664,143 +669,30 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `./Esercitazione1/esercitazione1.aux'.
+\openout2 = `./Esercitazione2/esercitazione2.aux'.
 
- (Esercitazione1/esercitazione1.tex
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 5.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txtt.fd"
-File: t1txtt.fd 2000/12/15 v3.1
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `txtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 40.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (iris.txt
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 1.
-) [2
+ (Esercitazione2/esercitazione2.tex [2
 
 
-]
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \hbox (44.6044pt too wide) in paragraph at lines 61--62
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (80.60477pt too wide) in paragraph at lines 63--64
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-(irisformattato.txt) [3] <iris.jpg, id=20, 803.0pt x 622.325pt>
-File: iris.jpg Graphic file (type jpg)
- <use iris.jpg>
-Package pdftex.def Info: iris.jpg used on input line 89.
-(pdftex.def)             Requested size: 441.65137pt x 342.2798pt.
-
-Overfull \hbox (51.65137pt too wide) in paragraph at lines 89--90
-[][] 
- []
-
-[4 <./iris.jpg>] <mushroom.jpg, id=24, 1104.125pt x 622.325pt>
-File: mushroom.jpg Graphic file (type jpg)
-
-<use mushroom.jpg>
-Package pdftex.def Info: mushroom.jpg used on input line 100.
-(pdftex.def)             Requested size: 710.4283pt x 532.80559pt.
-
-Overfull \hbox (118.4283pt too wide) in paragraph at lines 100--101
-[][] 
- []
-
-[5] [6 <./mushroom.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 124.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 124.
-
-Overfull \hbox (8.60403pt too wide) in paragraph at lines 124--125
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (30.20425pt too wide) in paragraph at lines 126--127
-[][][][][][][][][][][][][][][] 
- []
-
-[7] <performance.png, id=37, 462.528pt x 346.896pt>
-File: performance.png Graphic file (type png)
- <use performance.png>
-Package pdftex.def Info: performance.png used on input line 155.
-(pdftex.def)             Requested size: 397.77338pt x 298.33003pt.
-
-Overfull \hbox (7.77338pt too wide) in paragraph at lines 155--156
-[][] 
- []
-
-[8 <./performance.png>] [9]) [10] (ReportIA.aux
-(Esercitazione1/esercitazione1.aux)) ) 
+])
+[3] (ReportIA.aux (Esercitazione2/esercitazione2.aux)) ) 
 Here is how much of TeX's memory you used:
- 8417 strings out of 493335
- 122374 string characters out of 3139254
- 251271 words of memory out of 3000000
- 11733 multiletter control sequences out of 15000+200000
- 71918 words of font info for 74 fonts, out of 3000000 for 9000
+ 7651 strings out of 493335
+ 113140 string characters out of 3139254
+ 226359 words of memory out of 3000000
+ 11052 multiletter control sequences out of 15000+200000
+ 48132 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,43p,1170b,1456s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
-ips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (10 pages, 291295 bytes).
+ 38i,5n,38p,797b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmtt12.pfb>
+Output written on ReportIA.pdf (3 pages, 124335 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26128 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 15361 words of extra memory for PDF output out of 17280 (max. 10000000)
 
