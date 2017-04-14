@@ -14,12 +14,12 @@ maxvalue=100
 minvalues=-100
 flights={}
 # 
-for line in file('schedule.txt'):
-  origin,dest,depart,arrive,price=line.strip().split(',')
-  flights.setdefault((origin,dest),[])
+#for line in file('schedule.txt'):
+  #origin,dest,depart,arrive,price=line.strip().split(',')
+  #flights.setdefault((origin,dest),[])
 
   # Add details to the list of possible flights
-  flights[(origin,dest)].append((depart,arrive,int(price)))
+  #flights[(origin,dest)].append((depart,arrive,int(price)))
 
 def getminutes(t):
   x=time.strptime(t,'%H:%M')
@@ -68,19 +68,7 @@ def schedulecost(sol):
   if latestarrival>earliestdep: totalprice+=50
   
   return totalprice+totalwait
-def F(x):
-  if(x[0]<=5.2):
-    return 10
-  if((x[0]>=5.2)and(x[0]<=20)):
-    return x[0]*x[0]
-  if(x[0]>20):
-    return x[0]-1
-  
-def cost(sol):
-  cost=maxvalue-F(sol);
-  if cost<0:
-    cost=cost*(-1)+100
-  return cost
+
 
 def randomoptimize(domain,costf):
   best=999999999
@@ -209,7 +197,33 @@ def bits2int(bits):
 def as_float32(self):
     f = int(self, 2)
     return struct.unpack('f', struct.pack('I', f))[0]
-    
+  
+def F(x):
+  if(x[0]<=5.2):
+    return 10
+  if((x[0]>=5.2)and(x[0]<=20)):
+    return x[0]*x[0]
+  if(x[0]>20):
+    return x[0]-1
+  
+def cost(sol):
+  cost=maxvalue-F(sol);
+  if cost<0:
+    cost=cost*(-1)+100
+  return cost
+
+def costmax(sol):
+  cost=0
+  #print sol
+  if sol[0]>100 or sol[0]<-100:
+    cost=0
+  else:
+    cost=F(sol)
+  #print cost
+  #print maxv
+  #if cost>maxv[0]:
+  #  maxv[0]=cost
+  return cost  
 
   
 def geneticoptimize(domain,costf,popsize=100,step=1,
@@ -219,6 +233,8 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
     i=random.randint(0,len(vec)-1)
     if random.random()<0.5:
       if vec[i]=='0':
+        #vec=vec[0:i]+'1'+vec[i+1:] 
+        #if(round(as_float32(vec),2)<-100 or round(as_float32(vec),2)>100)
         return vec[0:i]+'1'+vec[i+1:] 
       else:
         return vec[0:i]+'0'+vec[i+1:]
@@ -237,11 +253,11 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
   
   # How many winners from each generation?
   topelite=int(elite*popsize)
-  
   # Main loop 
   for i in range(maxiter):
     scores=[(costf(v),v) for v in pop if v is not None ]
-    scores.sort()
+    scores.sort(reverse=True)
+    print scores
     ranked=[v for (s,v) in scores]
     for i in range(0,len(ranked)):
       ranked[i]=binary(ranked[i]);
@@ -270,6 +286,7 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
     # Print current best score
     print "score"
     print scores[0][0]
+    print scores[0][1]
     #print "pop"
     for i in range(0,len(pop)):
       if pop[i] is not None:
