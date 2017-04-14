@@ -14,6 +14,17 @@
 			\subsubsection{Simulation annealing}
 				Versione rivisitata dell' L'\texttt{Hill Climbing}, permette con un certa probabilità di provare anche un passo che non massimizza la funzione di costo, tale probabilità è data da $e^{-(migliorcosto+costoattuale/temperatura)}$ dove, più ci avviciniamo alla soluzione(diminuzione dei costi) e con l'abbassamento della temperatura,ad ogni iterazione dell' algoritmo, tale probabilità decresce.Tale strategia ha senso, per evitare che si ci possa assestare su un punto di massimo locale, invece così facendo possiamo trovare anche soluzioni migliori.
 		\subsection{Esperimento 2: Caso d'uso}
+			L' ottimizzazione sulla quale ci vogliamo concentrare è quella di una funzione $F(x)$, così definita (se $x<5.2,F(x)=10$; se $5.2<=x<=20,F(x)=x^2$; se $x>20,F(x)=x-1$) dove la $x$ può assumere valori tra $[-100,100]$, la ricerca di tale valore verrà effettuato grazie ad un algoritmo genetico.Prima di tutto però dobbiamo definire la funzione di costo,così da discriminare quando la nostra soluzione tende a migliorare oppure peggiora:
+			\begin{python}
+		def costmax(sol):
+			if sol[0]>100 or sol[0]<-100:
+				cost=0
+			else:
+				cost=F(sol)
+		return cost  
+			\end{python}
+			molto semplicemente se il valore di cui si calcola il costo non è accettabile, perché tra il passaggio tra una generazione ad un' altra si è avuto un gene non voluto, gli si da un costo 0 così per la creazione della prossima generazione non verrà preso in considerazione.\par
+			L' algoritmo prima di tutto genera una popolazione iniziale scegliendo a caso valori presi nello spazio delle soluzioni, ne calcola i vari score e sceglie una elite di geni, dopodiché per il numero di generazioni che vogliamo facciamo o la mutazione di un elemento o il crossover di 2 in base ad una probabilità di mutazione da noi fornita.
 	\section{Esercizio 2: MDS: Visually Exploring US Senator Similarity}
 		\label{sec:es2}
 			\subsection{Clustering}
