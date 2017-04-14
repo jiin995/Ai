@@ -1,0 +1,8 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Decision Trees}{3}
+\contentsline {section}{\numberline {1.1}Esercizio 1}{3}
+\contentsline {subsection}{\numberline {1.1.1}}{3}
+\contentsline {subsection}{\numberline {1.1.2}}{3}
+\contentsline {subsection}{\numberline {1.1.3}}{3}
+\contentsline {section}{\numberline {1.2}Esercizio 2}{3}

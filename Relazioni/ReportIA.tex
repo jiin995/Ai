@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{microtype}
+\usepackage{lmodern}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage[italian]{varioref}
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small,format=hang,labelfont={sf,bf}}
+\usepackage{float}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{color}
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
+
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{light-gray}{gray}{0.90}
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+
+\newcommand\realnumberstyle[1]{}
+
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+		language=Python,
+		basicstyle=\ttm,
+		otherkeywords={self},             % Add keywords here
+		keywordstyle=\ttb\color{deepblue},
+		emph={MyClass,__init__},          % Custom highlighting
+		emphstyle=\ttb\color{deepred},    % Custom highlighting style
+		stringstyle=\color{deepgreen},
+		frame=tb,                         % Any extra options here
+		showstringspaces=false 
+		xleftmargin=\dimexpr\fboxsep-\fboxrule,
+		xrightmargin=\dimexpr\fboxsep-\fboxrule,
+		gobble=16 ,
+		numbers=left
+	}}
+	
+	
+	% Python environment
+	\lstnewenvironment{python}[1][]
+	{
+		\pythonstyle
+		\lstset{#1}
+	}
+	{}
+\begin{document}        
+	\begin{titlepage}
+		\centering
+		{\scshape\huge Università degli Studi di Napoli Federico II \par}
+		\vspace{1cm}
+		{\scshape\large Dipartimento di Ingegneria Elettrica e delle Tecnologie dell'Informazione\par}
+		\vspace{0.5cm}
+		{\scshape\large Corso di Intelligenza Artificiale\par}
+		\vspace{1.5cm}
+		{\ttfamily\Large Elaborato Esercitativo\par}
+		\vspace{0.5cm}
+		{\huge\bfseries Work Projects\par}
+		\vspace{2cm}
+		{\Large\itshape Milo Saverio\par}
+		{\Large\itshape Previtera Gabriele\par}
+		{\Large\itshape Pommella Michele\par}
+		\vspace{1.5cm}
+		{\large Prof.~Neri Filippo\par}
+		
+		\vfill
+		
+		% Bottom of the page
+		{\large Anno 2016-2017\par}
+		
+		%\include{./Esercitazione1/esercitazione1}
+		\include{./Esercitazione2/esercitazione2}
+	\end{titlepage}
+\end{document}        
