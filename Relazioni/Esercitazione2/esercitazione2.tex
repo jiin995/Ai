@@ -58,7 +58,26 @@
 				Nelle immagini successive abbiamo i nomi dei senatori e che appartengono ad un determinato partito ed effettuando delle ricerche su internet vediamo che effettivamente la classificazione ottenuta è buona, per esempio Obama viene correttamente classificato come Repubblicano mentre Jeffords, il cui ha un passato da repubblicano viene riportato a destra ma ha un colore diverso in quanto ora è un indipendente.
 				L'ultima serie di immagini che l'algoritmo ci fornisce, possiamo vedere che le scelte di voto dei partiti sono consistenti.Cioè se un partito sceglie di elargire quel voto, tutti gli iscritti al partito si attengono, in generale, a quella scelta.
 				%da vedere meglio come esprimere questo risultato
-	\section{Esercizio 3}
+	\section{Esercizio 3: Constraint Satisfaction Problems}
 		\label{sec:es3}
+		Quello di un'agente intelligente che deve colorare le province della regione Campania evitando che le confinanti abbiano lo stesso colore è un tipico esempio di problema a soddisfacimento di vincoli. Individuiamo, quindi:
+		\begin{lstlisting}
+Variabili: Caserta, Benevento, Napoli, Avellino, Salerno
+Vincoli: province confinanti devono avere colori diversi
+		\end{lstlisting}
+		Possiamo, dunque, ricavare il grafo dei vincoli, i cui nodi sono le variabili ed i cui archi connettono coppie di variabili che partecipano ad un vincolo.
+		\begin{center}
+			\includegraphics[scale=0.7]{ConstraintGraph.jpg}
+		\end{center}
+		
+		Analizziamo il caso in cui l'agente disponga di solo 2 colori.
+		\begin{lstlisting}
+Dominio = {Colore1, Colore2}
+		\end{lstlisting}
+		Applicando il \texttt{Backtracking Search} si perviene presto alla conclusione dell'impossibilità di risolvere il problema vincolato. Ad esempio, applicando le euristiche per migliorare l'efficienza della ricerca, assegnamo a Napoli (\texttt{Degree Heuristic}: variabile con più vincoli sulle rimanenti variabili) il valore Colore1; se procediamo assegnando Colore2 a Caserta (o qualsiasi altra variabile dato che ora presentano tutte un solo valore ammisibile), si ottiene un fallimento, poiché tramite il \texttt{Forward Checking} si osserva che Benevento non può assumere nessun valore ammisibile. Questa risultato è comune anche agli altri path dell'albero di ricerca e tutto ciò è intuitivamente comprensibile poichè con soli 2 colori non siamo in grado di soddisfare i loop di 3 nodi presenti nel grafo dei vincoli.\par
+		Analizziamo il caso in cui l'agente disponga di 3 colori.
+		\begin{lstlisting}
+Dominio = {Colore1, Colore2, Colore3}
+		\end{lstlisting}
 	\section{Esercizio 4}
 		\label{sec:es4}
