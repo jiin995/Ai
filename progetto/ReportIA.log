@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  13 APR 2017 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  14 APR 2017 12:44
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -675,24 +675,24 @@ Package microtype Info: Loading generic settings for font family
 
 
 ])
-[3] (ReportIA.aux (Esercitazione2/esercitazione2.aux)) ) 
+[3] [4] (ReportIA.aux (Esercitazione2/esercitazione2.aux)) ) 
 Here is how much of TeX's memory you used:
- 7651 strings out of 493335
- 113140 string characters out of 3139254
- 226359 words of memory out of 3000000
+ 7657 strings out of 493335
+ 113204 string characters out of 3139254
+ 227359 words of memory out of 3000000
  11052 multiletter control sequences out of 15000+200000
- 48132 words of font info for 45 fonts, out of 3000000 for 9000
+ 48405 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,38p,797b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTe
-X 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmtt12.pfb>
-Output written on ReportIA.pdf (3 pages, 124335 bytes).
+ 38i,5n,38p,983b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmtt12.pfb>
+Output written on ReportIA.pdf (4 pages, 131035 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  15361 words of extra memory for PDF output out of 17280 (max. 10000000)
 
