@@ -225,8 +225,10 @@ def costmax(sol):
   #  maxv[0]=cost
   return cost  
 
-  
-def geneticoptimize(domain,costf,popsize=100,step=1,
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.ticker as ticker
+def geneticoptimize(domain,costf,popsize=50,step=1,
                     mutprob=0.2,elite=0.2,maxiter=100):
   # Mutation Operation
   def mutate(vec):
@@ -245,6 +247,8 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
     return r1[0:i]+r2[i:]
 
   # Build the initial population
+  x=[]
+  sc=[]
   pop=[]
   for i in range(popsize):
     vec=[round(random.uniform(domain[i][0],domain[i][1]),2) 
@@ -257,7 +261,6 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
   for i in range(maxiter):
     scores=[(costf(v),v) for v in pop if v is not None ]
     scores.sort(reverse=True)
-    print scores
     ranked=[v for (s,v) in scores]
     for i in range(0,len(ranked)):
       ranked[i]=binary(ranked[i]);
@@ -286,7 +289,8 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
     # Print current best score
     print "score"
     print scores[0][0]
-    print scores[0][1]
+    x=x+[scores[0][0]]
+    sc+=[scores[0][1]]
     #print "pop"
     for i in range(0,len(pop)):
       if pop[i] is not None:
@@ -294,5 +298,14 @@ def geneticoptimize(domain,costf,popsize=100,step=1,
         if math.isnan(float(pop[i][0]))==True:
           pop[i]=[0.00]
     #print "pop"
+  fig, ax = plt.subplots()
+  line,=ax.plot(sc,x,'r-')
+  start, end = ax.get_xlim()
+  ax.xaxis.set_ticks(np.arange(start, end, 0.712123))
+  ax.xaxis.set_major_formatter(ticker.FormatStrFormatter('%0.1f'))
+  plt.xlabel('valore di x')
+  plt.ylabel('valore F(x)')
+  line.set_antialiased(False)
+  plt.show()
   return scores[0][1]
 
