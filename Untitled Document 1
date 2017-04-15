@@ -1,0 +1,26 @@
+\raggedright
+\mychapter{2}{Work Project 2}
+	\label{ch:opt}
+	\section{Esercizio 1: Evolutionary Optimization}
+		\label{sec:es1}
+		\subsection{Esperimento 1: Ottimizzazione}
+			Attraverso gli algoritmi forniti siamo stati in grado di sperimentare le differenti tecniche di \emph{ricerca locale} su diversi problemi. Esse si basano sul principio dei miglioramenti successivi: si cerca in primo luogo una soluzione ed in seguito ci si concentra sull'ottimizzazione. Va considerato che spesso si riesce a determinare solo un massimo locale, ottenendo risultati più o meno soddisfacenti a seconda dell'applicazione.
+			\subsubsection{Random Searching}
+				Questo algoritmo prevede semplicemente la determinazione casuale di un insieme di soluzioni e la comparazione dei relativi costi per l'identificazione di quella a costo minimo.\par
+				Abbiamo effettuato differenti esperimenti variando il numero di soluzioni estratte casualmente: ad un suo eccessivo aumento non si ottengono necessariamente risultati nettamente migliori da giustificare l'evidente incremento della complessità computazionale in termini temporali; d'altro canto, un numero esiguo di soluzioni produce risultati dalla qualità incostante.
+			\subsubsection{Hill Climbing}
+				L'\texttt{Hill Climbing} inizialmente determina una soluzione ed i suoi "vicini": se uno di essi presenta un costo minore della soluzione corrente, diventerà la nuova soluzione alla prossima iterazione, attuando, in tal modo, il processo dei miglioramenti successivi; se la soluzione corrente ha costo minore dei suoi vicini, termina la serie di miglioramenti iterativi poiché si è in presenza di un massimo locale (minimo locale rispetto al costo).\par
+				Vari esperimenti ci hanno condotto a risultati decisamente migliori del \texttt{Random Searching}, che sottolineano la maggior efficienza dell'\texttt{Hill Climbing}. La variabilità nella qualità della soluzione, al seguito di svariate esecuzioni, è dipendente dai massimi locali del problema specifico.
+			\subsubsection{Simulated Annealing}
+				Questo metodo di ottimizzazione è ispirato dal riscaldamento termico di una lega. Viene comparata la soluzione corrente ad una determinata casualmente (nel nostro caso tramite un cambiamento di quella corrente): l'algoritmo tende a spostarsi sempre verso una soluzione successiva migliore, solo con una certa probabilità verso quelle peggiori. Questa probabilità dipende dalla qualità della soluzione successiva: mosse pessime avranno minore probabilità. Viene, inoltre, introdotto un concetto di "temperatura": essa determina la probabilità di spostarsi verso soluzioni non ottime. Inizialmente questa probabilità sarà alta (temperatura elevata), in seguito essa tenderà a calare (raffreddamento), consentendo, in ultima battuta, la scelta della soluzione ottimizzata. Le ragioni alla base di questa logica risiedono nella maggiore possibilità di trovare un massimo globale.\par
+				Dalle prove sperimentali abbiamo constatato risultati migliori o uguali all'\texttt{Hill Climbing}, appurando la maggiore capacità di ottenere soluzioni con costo inferiore.
+			\subsubsection{Genetic Algorithms}
+				Ulteriore algoritmo che tenta di superare i limiti dell'\texttt{Hill Climbing} è quello genetico. Esso è ispirato dalla natura, proponendo un'evoluzione delle soluzioni tipicamente darwiniana. L'algoritmo prende le mosse selezionando un insieme casuale di soluzioni, detto \emph{popolazione}. Gli esemplari della popolazione vengono poi valutati ed ordinati attraverso una \emph{funzione di fitness} (rappresentata nel nostro caso dal costo minimo). Nell'implementazione utilizzata, si procede alla creazione della successiva \emph{generazione} a partire da un prestabilito numero di migliori soluzioni. Attraverso il processo di \emph{elitarismo} le migliori soluzioni sopravviveranno nella nuova generazione; la restante popolazione sarà costituita attraverso la \emph{mutazione} (cambiamento casuale ad una soluzione) ed il \emph{crossover} (combinazione di due soluzioni) dell'elite.\par
+				Vari esperimenti di hanno portato a riscontrare risultati simili  al \texttt{Simulated Annealing}, se non migliori in taluni casi, che presentano, però, una minore variabilità con misure ripetute. Riusciamo, in definitiva, ad ottenere una buona ottimizzazione, di qualità superiore all'\texttt{Hill Climbing} ed al \texttt{Random Searching}.
+		\subsection{Esperimento 2: Caso d'uso}
+	\section{Esercizio 2}
+		\label{sec:es2}
+	\section{Esercizio 3}
+		\label{sec:es3}
+	\section{Esercizio 4}
+		\label{sec:es4}
