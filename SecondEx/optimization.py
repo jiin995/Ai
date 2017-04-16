@@ -228,7 +228,7 @@ def costmax(sol):
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as ticker
-def geneticoptimize(domain,costf,popsize=50,step=1,
+def geneticoptimize(domain,costf,popsize=100,step=1,
                     mutprob=0.2,elite=0.2,maxiter=100):
   # Mutation Operation
   def mutate(vec):

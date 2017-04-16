@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  16 APR 2017 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  16 APR 2017 20:35
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -848,38 +848,45 @@ LaTeX Font Warning: Command \LARGE invalid in math mode on input line 17.
 ("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
 1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [4] [5]
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 70--71
+) <fitness.png, id=20, 462.528pt x 346.896pt>
+File: fitness.png Graphic file (type png)
+ <use fitness.png>
+Package pdftex.def Info: fitness.png used on input line 42.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+ [4]
+[5 <./fitness.png>] [6]
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 71--72
 [][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 71--72
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 72--73
 [][][][][][][][][][][][][][][][] 
  []
 
-[6] <ConstraintGraph.jpg, id=34, 252.945pt x 257.96375pt>
+<ConstraintGraph.jpg, id=37, 252.945pt x 257.96375pt>
 File: ConstraintGraph.jpg Graphic file (type jpg)
 
 <use ConstraintGraph.jpg>
-Package pdftex.def Info: ConstraintGraph.jpg used on input line 75.
+Package pdftex.def Info: ConstraintGraph.jpg used on input line 76.
 (pdftex.def)             Requested size: 177.06029pt x 180.57338pt.
  [7 <./ConstraintGraph.jpg>]
-<SearchTree.jpg, id=39, 528.97626pt x 690.58pt>
+<SearchTree.jpg, id=42, 528.97626pt x 690.58pt>
 File: SearchTree.jpg Graphic file (type jpg)
  <use SearchTree.jpg>
-Package pdftex.def Info: SearchTree.jpg used on input line 93.
+Package pdftex.def Info: SearchTree.jpg used on input line 94.
 (pdftex.def)             Requested size: 234.00136pt x 236.79619pt.
- [8 <./SearchTree.jpg>]) [9] (ReportIA.aux (Esercitazione2/esercitazione2.aux))
+ [8]
+[9 <./SearchTree.jpg>]) [10] (ReportIA.aux (Esercitazione2/esercitazione2.aux))
  ) 
 Here is how much of TeX's memory you used:
- 9203 strings out of 493333
- 134690 string characters out of 3129275
- 257418 words of memory out of 3000000
- 12495 multiletter control sequences out of 15000+200000
+ 9209 strings out of 493333
+ 134768 string characters out of 3129275
+ 257419 words of memory out of 3000000
+ 12499 multiletter control sequences out of 15000+200000
  65147 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,43p,1038b,1330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,5n,43p,1038b,1330s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
 hsy.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-rm.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
@@ -899,9 +906,9 @@ rs/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><
 C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/t
 1xbtt.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (9 pages, 243315 bytes).
+Output written on ReportIA.pdf (10 pages, 255596 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18955 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 18960 words of extra memory for PDF output out of 20736 (max. 10000000)
 
