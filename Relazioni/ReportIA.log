@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  16 APR 2017 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  17 APR 2017 13:14
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -880,11 +880,11 @@ Package pdftex.def Info: SearchTree.jpg used on input line 94.
 [9 <./SearchTree.jpg>]) [10] (ReportIA.aux (Esercitazione2/esercitazione2.aux))
  ) 
 Here is how much of TeX's memory you used:
- 9209 strings out of 493333
- 134768 string characters out of 3129275
+ 9215 strings out of 493333
+ 134832 string characters out of 3129275
  257419 words of memory out of 3000000
  12499 multiletter control sequences out of 15000+200000
- 65147 words of font info for 80 fonts, out of 3000000 for 9000
+ 65420 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,5n,43p,1038b,1330s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
@@ -906,7 +906,7 @@ rs/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><
 C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/t
 1xbtt.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (10 pages, 255596 bytes).
+Output written on ReportIA.pdf (10 pages, 255868 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
