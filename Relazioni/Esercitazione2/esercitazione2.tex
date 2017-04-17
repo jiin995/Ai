@@ -43,26 +43,25 @@
 			Come si può vedere, il valore che ottimizza la F(x) è dato da x=20, il risultato si riesce a trovare anche partendo da una popolazione iniziale ristretta di soli 100 elementi.Per un numero di iterazioni discreto, 100, la soluzione non solo viene trovata, ma viene confermata più volte, dimostrando che anche se si provano nuove combinazioni, il gene che massimizza la nostra fitness è stato già trovato precedentemente e le iterazioni successive non fanno altro che confermarlo.
 	\section{Esercizio 2: MDS: Visually Exploring US Senator Similarity}
 		\label{sec:es2}
-			\subsection{Clustering}
-				Il Clustering o analisi di raggruppamento è una tecnica di intelligenza artificiale volta alla selezione e raggruppamento di elementi omogenei in un insieme di dati. Tutte le tecniche di clustering si basano sul concetto di distanza tra due elementi,che ci permette di definire il concetto di somiglianza tra gli elementi, infatti l'appartenenza o meno ad un insieme dipende da quanto l'elemento preso in esame è distante dall'insieme. La bontà delle analisi ottenute dagli algoritmi di clustering dipende dalla metrica, metriche diverse porteranno quasi certamente a cluster differenti.
+			\subsubsection{Clustering}
+				Il Clustering, o analisi di raggruppamento, è una tecnica di intelligenza artificiale volta alla selezione e raggruppamento di elementi omogenei in un insieme di dati. Tutte le tecniche di clustering si basano sul concetto di distanza tra due elementi, che ci permette di definire il concetto di somiglianza tra gli elementi. Infatti l'appartenenza o meno ad un insieme dipende da quanto l'elemento preso in esame sia distante dall'insieme. La bontà delle analisi ottenute dagli algoritmi di clustering dipende dalla metrica: metriche diverse porteranno quasi certamente a cluster differenti.
 				
-			\subsection{MDS: Multidimensional scaling}
-				Il MultiDimensional Scaling è una tecnica di analisi statistica usata per mostrare graficamente le differenze o somiglianze tra elementi di un insieme. È una generalizzazione del concetto di ordinamento:partendo da un matrice che contiene le informazioni che vogliamo analizzare e moltiplicandola per la sua trasposta otterremo una matrice quadrata, contenente la "somiglianza"  di ogni elemento con un altro, dopodiché l'algoritmo di scaling multidimensionale assegna a ogni soggetto una posizione in uno spazio N-dimensionale, con N stabilito a priori tramite una metrica.\par
-			\subsection{Riflessioni }		
+			\subsubsection{MDS: MultiDimensional Scaling}
+				Il MultiDimensional Scaling è una tecnica di analisi statistica usata per mostrare graficamente le differenze o somiglianze tra elementi di un insieme. È una generalizzazione del concetto di ordinamento: partendo da un matrice contenente le informazioni che vogliamo analizzare e moltiplicandola per la sua trasposta, otterremo una matrice quadrata reppresentante la "somiglianza"  di ogni elemento con un altro, dopodiché l'algoritmo di scaling multidimensionale assegnerà a ogni soggetto una posizione in uno spazio N-dimensionale, con N stabilito a priori tramite una metrica.
+			\subsubsection{Riflessioni }		
 				%	Nel codice che ci e' stato fornito un abbiamo a disposizione due esempi, il primo, un  si basa su il giudizio da parte di quattro clienti  riguardo a 6 prodotti,
-				L'esempio fornitoci descrive l' orientamento politico dei membri del Congresso americano dal 101 al 111, sull' analisi dei voti.
+				L'esempio affrontato descrive l'orientamento politico dei membri dei Congressi americani, dal 101-esimo al 111-esimo, sull' analisi dei voti.
 				%Lo scopo è quello di raggruppare i venditori i senatori in base alle loro preferenze.
-				Nel codice sono forniti i dataset in formato STATA, programma utilizzato dagli studenti di scienze politiche, con i voti di quelle sedute. 
+				Sono utilizzati i dataset in formato \emph{STATA}, programma commerciale di calcolo statistico diffuso tra gli accademici nell'ambito delle scienze politiche. Essi presentano i voti delle differenti sedute dei 10 Congressi presi in esame. 
 				La metrica utilizzata per la distanza è quella euclidea.
-				
 				%Dal Multidimensional scaling del primo esempio giungiamo alla seguente conclusione :" i recensori A e D hanno valori di metrica abbastanza vicini tra loro mentre per i recensori B e C no.
 				%Analizzando i dati che abbiamo a disposizione non rimaniamo sorpresi di questi risultati,l'algoritmo classifica A e D come simili infatti hanno espresso quattro pareri concordanti su sei, mentre B e C hanno espresso solo due concordanti e non è un buon risultato per classificarli come simili.
 				%Ovviamente per considerazioni più approfondite abbiamo bisogno di un numero maggiore di dati."
-				
-				Essendo i dati molto complessi ne viene fatta una semplificazione facendo in modo tale che tra le possibili classi di votazioni(9 in totale), se ne derivino solo tre per rendere l' analisi meno complessa.
-				Viene dapprima analizzato il caso della 110 seduta notiamo che gli schieramenti dei voti sono netti Repubblicani a destra e dei Democratici a sinistra.
-				Successivamente abbiamo lo stesso grafico con i nomi dei senatori che appartengono ad un determinato partito ed effettuando delle ricerche su internet notiamo che l' orientamento politico discrimina la votazione , per esempio Obama si trova nel lato dei Repubblicano mentre Jeffords, il cui ha un passato da Repubblicano, comunque mantiene quellì orientamento anche se ora è un indipendente.
-				L'ultima serie di immagini che l'algoritmo ci fornisce, ci permette di osservare che non solo per quel congresso ma per tutti i 10 analizzati, le scelte di voto sono consistenti con il partito di appartenenza, a volte sembra che i vari punti siano più centrali, come se le scelte fossero meno radicali, ma tale risultato di ottiene perché non si ha una scala univoca che definisca la distanza, quindi gli estremismi sono presenti sempre.
+				Essendo i dati troppo complessi e strutturati per i nostri scopi, per facilitare l' analisi viene eseguita una semplificazione aggregando dei tipi di voto: tra tutte le possibili classi di votazione (nove in totale) se ne ricavano solo tre.\par
+				Viene dapprima analizzato il caso del 110-esimo Senato. Notiamo che gli schieramenti dei voti sono netti: Repubblicani a destra e Democratici a sinistra.
+				%Successivamente abbiamo lo stesso grafico con i nomi dei senatori che appartengono ad un determinato partito ed effettuando delle ricerche su internet notiamo che l' orientamento politico discrimina la votazione , per esempio Obama si trova nel lato dei Repubblicano mentre Jeffords, il cui ha un passato da Repubblicano, comunque mantiene quellì orientamento anche se ora è un indipendente.
+				Estendendo l'analisi a tutti i Congressi, constatiamo che le scelte di voto sono consistenti con il partito di appartenenza. Alcuni grafici possono sembrare meno polarizzati, caratterizzati da punti più centrali, come se i voti siano stati meno radicali, ma tale risultato si ottiene perché non si ha una scala univoca che definisca la distanza.
+				% quindi gli estremismi sono presenti sempre.
 				%da vedere meglio come esprimere questo risultato
 	\section{Esercizio 3: Constraint Satisfaction Problems}
 		\label{sec:es3}
