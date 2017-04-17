@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  17 APR 2017 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  17 APR 2017 21:47
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -792,33 +792,33 @@ LaTeX Font Warning: Command \LARGE invalid in math mode on input line 17.
 
 [3] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-<fitness.png, id=20, 462.528pt x 346.896pt>
+) [4]
+<fitness.png, id=29, 462.528pt x 346.896pt>
 File: fitness.png Graphic file (type png)
  <use fitness.png>
-Package pdftex.def Info: fitness.png used on input line 42.
+Package pdftex.def Info: fitness.png used on input line 55.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
- [4] [5 <./fitness.png>] [6]
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 70--71
+ [5 <./fitness.png>] [6]
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 71--72
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 84--85
 [][][][][][][][][][][][][][][][] 
  []
 
-<ConstraintGraph.jpg, id=37, 252.945pt x 257.96375pt>
+<ConstraintGraph.jpg, id=38, 252.945pt x 257.96375pt>
 File: ConstraintGraph.jpg Graphic file (type jpg)
 
 <use ConstraintGraph.jpg>
-Package pdftex.def Info: ConstraintGraph.jpg used on input line 75.
+Package pdftex.def Info: ConstraintGraph.jpg used on input line 88.
 (pdftex.def)             Requested size: 177.06029pt x 180.57338pt.
  [7 <./ConstraintGraph.jpg>]
-<SearchTree.jpg, id=42, 528.97626pt x 690.58pt>
+<SearchTree.jpg, id=43, 528.97626pt x 690.58pt>
 File: SearchTree.jpg Graphic file (type jpg)
  <use SearchTree.jpg>
-Package pdftex.def Info: SearchTree.jpg used on input line 93.
+Package pdftex.def Info: SearchTree.jpg used on input line 106.
 (pdftex.def)             Requested size: 234.00136pt x 236.79619pt.
  [8]
 [9 <./SearchTree.jpg>]) [10] (ReportIA.aux (Esercitazione2/esercitazione2.aux))
@@ -826,28 +826,29 @@ Package pdftex.def Info: SearchTree.jpg used on input line 93.
 Here is how much of TeX's memory you used:
  9205 strings out of 493335
  131095 string characters out of 3139254
- 257243 words of memory out of 3000000
+ 255249 words of memory out of 3000000
  12488 multiletter control sequences out of 15000+200000
  65420 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,43p,1038b,1330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,43p,1038b,1334s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/txfonts/t1xbtt.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (10 pages, 255958 bytes).
+nc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xbtt.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on ReportIA.pdf (10 pages, 260463 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18960 words of extra memory for PDF output out of 20736 (max. 10000000)
 

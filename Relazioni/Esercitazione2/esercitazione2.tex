@@ -25,7 +25,18 @@
 				Ulteriore algoritmo che tenta di superare i limiti dell'\texttt{Hill Climbing} è quello genetico. Esso è ispirato dalla natura, proponendo un'evoluzione delle soluzioni tipicamente darwiniana. L'algoritmo prende le mosse selezionando un insieme casuale di soluzioni, detto \emph{popolazione}. Gli esemplari di questa vengono poi valutati ed ordinati attraverso una \emph{funzione di fitness} (rappresentata nel nostro caso dal costo minimo). Nell'implementazione utilizzata, si procede alla creazione della successiva \emph{generazione} a partire da un prestabilito numero di migliori soluzioni. Attraverso il processo di \emph{elitarismo} quelle ottime sopravviveranno nella nuova generazione; la restante popolazione sarà costituita attraverso la \emph{mutazione} (cambiamento casuale ad una soluzione) ed il \emph{crossover} (combinazione di due soluzioni) dell'elite.\par
 				Vari esperimenti di hanno portato a riscontrare risultati simili  al \texttt{Simulated Annealing}, se non migliori in taluni casi, che presentano, però, una minore variabilità con misure ripetute. Riusciamo, in definitiva, ad ottenere una buona ottimizzazione, di qualità superiore all'\texttt{Hill Climbing} ed al \texttt{Random Searching}.
 		\subsection{Esperimento 2: Caso d'uso}
-			L' ottimizzazione sulla quale ci vogliamo concentrare è quella di una funzione $F(x)$, così definita (se $x<5.2,F(x)=10$; se $5.2<=x<=20,F(x)=x^2$; se $x>20,F(x)=x-1$) dove la $x$ può assumere valori tra $[-100,100]$, la ricerca di tale valore verrà effettuato grazie ad un algoritmo genetico.Prima di tutto però dobbiamo definire la funzione di costo,così da poter determinare quando la nostra soluzione tende a migliorare oppure tende a peggiorare:
+			L'ottimizzazione sulla quale ci vogliamo concentrare è quella di una funzione $F(x)$, così definita:
+			\[
+				F(x)=
+				\begin{cases}
+					10 & \mbox{se }x<5.2\\
+					x^2 & \mbox{se }5.2\leq x \leq 20\\
+					x-1 & \mbox{se } x>20
+				\end{cases}
+				\mbox{ ; }x \in [-100,100]
+			\]
+			dove la $x$ può assumere valori tra $[-100,100]$. La ricerca di tale valore verrà effettuata tramite algoritmo genetico. Prima di tutto, però, dobbiamo definire la funzione di costo, così da poter determinare quando la nostra soluzione tende a migliorare o, viceversa, a peggiorare:
+			\bigskip
 			\begin{python}
 		def costmax(sol):
 			if sol[0]>100 or sol[0]<-100:
@@ -34,13 +45,15 @@
 				cost=F(sol)
 		return cost  
 			\end{python}
-			La nostra funzione di costo è definita nel seguente modo, se il valore di cui si calcola il costo non è accettabile, perché nel passaggio tra una generazione ad un' altra si è avuto un gene non voluto,cioè non accettabile per la soluzione (valore al di fuori dell' intervallo $[-100,100]$ ) gli si da un costo pari a 0 in modo tale che per la creazione della prossima generazione non verrà preso in considerazione.\par
-			L' algoritmo prima di tutto genera una popolazione iniziale scegliendo a caso valori presi nello spazio delle soluzioni, ne calcola i vari score e sceglie una elite di geni(quelli che in questo caso massimizzano lo score), dopodiché per un numero di generazioni volute possiamo far mutare un elemento o fare il crossover di 2 in base ad una probabilità di mutazione da noi fornita. \par 
-			Abbiamo però riscontrato un problema, nella rappresentazione numerica, i dati vengono passati all' algoritmo sotto forma di float, che non permette di definire un' operazione di mutazione o crossover semplice. Per ovviare a questo inconveniente i numeri vengono convertiti nella loro forma binaria(in questo caso a 32 bit), definendo quindi la mutazione come il cambiamento di un bit da 1 a 0 o viceversa. Il crossover è eseguito scegliendo un numero di bit casuale da un gene che devono essere scambiati con un numero restanti di bit di un altro, affinché venga raggiunto un numero di 32 bit.Possiamo vedere il crossover come un' operazione di ricombinazione genetica in cui parte del materiale genetico di un gene si ricombina con un altro, così facendo ad ogni cambio generazionale si introducono nuovi geni come combinazione dei cromosomi di geni genitori migliori nella generazione precedente, procedendo così ad una operazione di selezione naturale.
-			La mutazione invece è un fattore casuale che permette di introdurre nuovi tratti nei geni, così, le nuove generazioni avranno caratteristiche distintive non presenti nei genitori, permettendo, così, alla specie di trovare diverse strade per sopravvivere.
+			\bigskip
+			La nostra funzione di costo è definita nel seguente modo: se il valore di cui si calcola il costo non è accettabile, poiché nel passaggio tra una generazione ad un'altra si è avuto un esemplare della popolazione non voluto, cioè non accettabile per la soluzione (valore al di fuori dell' intervallo $[-100,100]$ ), gli si dà un costo pari a 0, in modo tale che per la creazione della prossima generazione non verrà preso in considerazione; altrimenti il costo è dato dall'applicazione della F sul valore in ingresso.\par
+			L' algoritmo prima di tutto genera una popolazione iniziale scegliendo a caso valori presi nello spazio delle soluzioni, ne calcola i vari score e sceglie una elite di individui (quelli che in questo caso massimizzano lo score), dopodiché, per un numero di generazioni volute, possiamo far mutare un elemento o fare il crossover tra due di essi in base ad una probabilità di mutazione da noi fornita. \par 
+			Abbiamo però riscontrato un problema nella rappresentazione numerica: i dati vengono passati all' algoritmo sotto forma di float, che non permette di definire un' operazione di mutazione o crossover semplice. Per ovviare a questo inconveniente i numeri vengono convertiti nella loro forma binaria (in questo caso a 32 bit), definendo quindi la mutazione come il cambiamento di un bit da 1 a 0, o viceversa.\par
+			Il crossover è eseguito scegliendo un numero di bit casuale da una soluzione e il numero restante di bit da un'altra, affinché si riottenga un codice di 32 bit. Possiamo vedere il crossover come un'operazione di ricombinazione genetica in cui parte del materiale genetico di un individuo si ricombina con un altro. Così facendo, ad ogni cambio generazionale, si genera una progenie come combinazione di geni dei genitori migliori della generazione precedente, attuando in tal modo una selezione naturale.\par
+			La mutazione, invece, è un fattore casuale che permette di introdurre nuovi tratti negli individui, di variarne i geni, donando in tal modo alla progenie caratteristiche distintive non presenti nei genitori e consentendo alla specie di attuare un processo evolutivo che favorisca la sopravvivenza.
 			%non saprei se mettere un esempio di soluzione o un grafico, ditemi voi%
 			\includegraphics[scale=0.80]{fitness.png}
-			Come si può vedere, il valore che ottimizza la F(x) è dato da x=20, il risultato si riesce a trovare anche partendo da una popolazione iniziale ristretta di soli 100 elementi.Per un numero di iterazioni discreto, 100, la soluzione non solo viene trovata, ma viene confermata più volte, dimostrando che anche se si provano nuove combinazioni, il gene che massimizza la nostra fitness è stato già trovato precedentemente e le iterazioni successive non fanno altro che confermarlo.
+			Come si può vedere, il valore che ottimizza la F(x) tende a x=20. Il risultato si riesce a trovare anche partendo da una popolazione iniziale ristretta a soli 100 elementi. Per un numero di iterazioni discreto (100 in questo caso) la soluzione non solo viene trovata, ma viene confermata più volte, dimostrando che, anche se si provano nuove combinazioni, l'esemplare che massimizza la fitness è stato già trovato precedentemente e le iterazioni successive non fanno altro che confermarlo.
 	\section{Esercizio 2: MDS: Visually Exploring US Senator Similarity}
 		\label{sec:es2}
 			\subsubsection{Clustering}
