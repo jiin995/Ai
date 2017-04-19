@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.5)  19 APR 2017 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.5)  19 APR 2017 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,7 +846,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (11 pages, 251270 bytes).
+Output written on ReportIA.pdf (11 pages, 251079 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
