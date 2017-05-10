@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  20 APR 2017 07:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  10 MAY 2017 11:56
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -652,7 +652,7 @@ LaTeX Font Info:    Try loading font information for T1+txtt on input line 31.
 ("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\t1txtt.f
 d"
 File: t1txtt.fd 2000/12/15 v3.1
-) (ReportIA.aux (Esercitazione2/esercitazione2.aux))
+) (ReportIA.aux (Esercitazione3/esercitazione3.aux))
 \openout1 = `ReportIA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -786,130 +786,32 @@ Package microtype Info: Loading generic settings for font family
 [1
 
 {C:/Users/saverio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `./Esercitazione2/esercitazione2.aux'.
+\openout2 = `./Esercitazione3/esercitazione3.aux'.
 
 
-(Esercitazione2/esercitazione2.tex [2
+(Esercitazione3/esercitazione3.tex [2
 
 
-]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
-
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
-
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 16.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 16.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa
-.cfg"
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
-
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb
-.cfg"
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 17.
-
-[3]
-("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
-1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [4] <fitness.png, id=29, 462.528pt x 346.896pt>
-File: fitness.png Graphic file (type png)
- <use fitness.png>
-Package pdftex.def Info: fitness.png used on input line 56.
-(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-
-[5 <./fitness.png>] [6]
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 84--85
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (4.7976pt too wide) in paragraph at lines 85--86
-[][][][][][][][][][][][][][][][] 
- []
-
-<ConstraintGraph.jpg, id=38, 252.945pt x 257.96375pt>
-File: ConstraintGraph.jpg Graphic file (type jpg)
-
-<use ConstraintGraph.jpg>
-Package pdftex.def Info: ConstraintGraph.jpg used on input line 89.
-(pdftex.def)             Requested size: 177.06029pt x 180.57338pt.
- [7] [8 <./ConstraintGraph.jpg>]
-<SearchTree.jpg, id=46, 528.97626pt x 690.58pt>
-File: SearchTree.jpg Graphic file (type jpg)
- <use SearchTree.jpg>
-Package pdftex.def Info: SearchTree.jpg used on input line 108.
-(pdftex.def)             Requested size: 234.00136pt x 236.79619pt.
- [9 <./SearchTree.jpg>] [10]) [11] (ReportIA.aux (Esercitazione2/esercitazione2
-.aux)) ) 
+]) [3] (ReportIA.aux
+(Esercitazione3/esercitazione3.aux)) ) 
 Here is how much of TeX's memory you used:
- 9217 strings out of 493333
- 134848 string characters out of 3129275
- 255417 words of memory out of 3000000
- 12499 multiletter control sequences out of 15000+200000
- 65473 words of font info for 84 fonts, out of 3000000 for 9000
+ 8515 strings out of 493333
+ 125822 string characters out of 3129275
+ 240636 words of memory out of 3000000
+ 11890 multiletter control sequences out of 15000+200000
+ 37980 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,43p,1038b,1334s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-mathsy.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-rm.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathex.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts
-/enc/dvips/lm/lm-mathit.enc}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9
-/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/saverio/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/saverio/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/saverio/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/saverio/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/saverio/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/saverio/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/save
-rio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/
-saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Us
-ers/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-<C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy1
-0.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy6.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmtt12.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/txfonts/t1xbtt.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on ReportIA.pdf (11 pages, 265182 bytes).
+ 40i,5n,38p,1546b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/saverio/AppData/Local/Programs/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/saverio/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/saverio/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/saverio/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/saverio/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/saver
+io/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on ReportIA.pdf (3 pages, 121816 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18960 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
 
