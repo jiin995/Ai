@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  10 MAY 2017 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  10 MAY 2017 16:32
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -792,26 +792,82 @@ Package microtype Info: Loading generic settings for font family
 (Esercitazione3/esercitazione3.tex [2
 
 
-]) [3] (ReportIA.aux
-(Esercitazione3/esercitazione3.aux)) ) 
+]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 25.
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 25.
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 25.
+
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 25.
+
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa
+.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb
+.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3] [4]) [5] (ReportIA.aux (Esercitazione3/esercitazione3.aux)) ) 
 Here is how much of TeX's memory you used:
- 8515 strings out of 493333
- 125822 string characters out of 3129275
- 240636 words of memory out of 3000000
- 11890 multiletter control sequences out of 15000+200000
- 37980 words of font info for 44 fonts, out of 3000000 for 9000
+ 8669 strings out of 493333
+ 129410 string characters out of 3129275
+ 241646 words of memory out of 3000000
+ 11978 multiletter control sequences out of 15000+200000
+ 51233 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,5n,38p,1546b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/saverio/AppData/Local/Programs/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/saverio/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/saverio/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/saverio/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/saverio/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/saver
-io/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ReportIA.pdf (3 pages, 121816 bytes).
+ 40i,5n,38p,2080b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/sa
+verio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Us
+ers/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/
+Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.en
+c}{C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
+enc}<C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mbx12.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmcsc10.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmmi12.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmmi8.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmr12.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/saverio/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/saverio/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/saverio/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/saverio/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on ReportIA.pdf (5 pages, 155715 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 15361 words of extra memory for PDF output out of 17280 (max. 10000000)
 
