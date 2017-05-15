@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  12 MAY 2017 11:50
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  12 MAY 2017 11:45
->>>>>>> 29ffaf861c914c77c274cb901c01d341882c1a65
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.27)  15 MAY 2017 16:32
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -844,19 +840,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Users\saverio\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb
 .cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-<<<<<<< HEAD
-) <retebayesiana.jpg, id=13, 338.76563pt x 263.48438pt>
+) <retebayesiana.jpg, id=16, 338.76563pt x 263.48438pt>
 File: retebayesiana.jpg Graphic file (type jpg)
 
 <use retebayesiana.jpg>
-Package pdftex.def Info: retebayesiana.jpg used on input line 26.
+Package pdftex.def Info: retebayesiana.jpg used on input line 27.
 (pdftex.def)             Requested size: 370.51364pt x 236.80807pt.
- [3] [4 <./retebayesiana.jpg>] [5]
+ [4 <./retebayesiana.jpg>] [5]
 <neurone.jpg, id=29, 205.9695pt x 138.39705pt>
-=======
-) [4] [5]
-<neurone.jpg, id=28, 205.9695pt x 138.39705pt>
->>>>>>> 29ffaf861c914c77c274cb901c01d341882c1a65
 File: neurone.jpg Graphic file (type jpg)
  <use neurone.jpg>
 Package pdftex.def Info: neurone.jpg used on input line 46.
@@ -872,32 +863,31 @@ Package pdftex.def Info: RN-multilayer.jpg used on input line 51.
 <inizio.png, id=42, 912.40875pt x 514.3215pt>
 File: inizio.png Graphic file (type png)
  <use inizio.png>
-Package pdftex.def Info: inizio.png used on input line 68.
+Package pdftex.def Info: inizio.png used on input line 70.
 (pdftex.def)             Requested size: 389.98918pt x 236.7948pt.
 
 <factorfilter0,1.png, id=44, 924.45375pt x 525.76425pt>
 File: factorfilter0,1.png Graphic file (type png)
 
 <use factorfilter0,1.png>
-Package pdftex.def Info: factorfilter0,1.png used on input line 74.
+Package pdftex.def Info: factorfilter0,1.png used on input line 76.
 (pdftex.def)             Requested size: 390.00296pt x 236.80031pt.
  <stock2.png, id=45, 914.81775pt x 516.7305pt>
 File: stock2.png Graphic file (type png)
 
 <use stock2.png>
-Package pdftex.def Info: stock2.png used on input line 77.
+Package pdftex.def Info: stock2.png used on input line 79.
 (pdftex.def)             Requested size: 389.99985pt x 236.80006pt.
 ) [9 <./inizio.png>] [10 <./factorfilter0,1.png>] [11 <./stock2.png>] (ReportIA
 .aux (Esercitazione3/esercitazione3.aux)) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
  8715 strings out of 493333
  130121 string characters out of 3129275
  244667 words of memory out of 3000000
  12006 multiletter control sequences out of 15000+200000
  56064 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,5n,38p,2080b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,5n,38p,2119b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/saverio/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/saverio/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/saverio/AppDat
@@ -916,30 +906,7 @@ nts/type1/public/lm/lmri12.pfb><C:/Users/saverio/AppData/Local/Programs/MiKTeX
 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/saverio/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/saverio/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ReportIA.pdf (11 pages, 636170 bytes).
-=======
- 8686 strings out of 493335
- 126090 string characters out of 3139254
- 242374 words of memory out of 3000000
- 11979 multiletter control sequences out of 15000+200000
- 56155 words of font info for 78 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,5n,38p,2080b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
-ips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.
-enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts
-/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-sy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ReportIA.pdf (8 pages, 291205 bytes).
->>>>>>> 29ffaf861c914c77c274cb901c01d341882c1a65
+Output written on ReportIA.pdf (11 pages, 637840 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
