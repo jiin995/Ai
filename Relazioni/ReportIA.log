@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  12 MAY 2017 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  3 JUN 2017 15:13
 entering extended mode
 **./ReportIA.tex
 (ReportIA.tex
@@ -618,7 +618,24 @@ LaTeX Font Info:    Try loading font information for T1+txtt on input line 31.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\t1txtt.fd"
 File: t1txtt.fd 2000/12/15 v3.1
 ) (ReportIA.aux
-(Esercitazione3/esercitazione3.aux))
+(Esercitazione1/esercitazione1.aux) (Esercitazione2/esercitazione2.aux
+
+LaTeX Warning: Label `sec:es1' multiply defined.
+
+
+LaTeX Warning: Label `sec:es2' multiply defined.
+
+) (Esercitazione3/esercitazione3.aux
+
+LaTeX Warning: Label `sec:es1' multiply defined.
+
+
+LaTeX Warning: Label `sec:es2' multiply defined.
+
+
+LaTeX Warning: Label `sec:es4' multiply defined.
+
+))
 \openout1 = `ReportIA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -634,8 +651,7 @@ LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 63.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \it@ocap on input line 63.
@@ -737,38 +753,46 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `./Esercitazione3/esercitazione3.aux'.
+\openout2 = `./Esercitazione1/esercitazione1.aux'.
 
- (Esercitazione3/esercitazione3.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 11.
+ (Esercitazione1/esercitazione1.tex
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 4.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (iris.txt
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 11.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 11.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 11.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 11.
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+(Font)              <6> on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -776,90 +800,200 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [2
+)) [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 23.
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Overfull \hbox (44.6044pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][] 
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+
+Overfull \hbox (80.60477pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+(irisformattato.txt) [3] <iris.jpg, id=20, 803.0pt x 622.325pt>
+File: iris.jpg Graphic file (type jpg)
+ <use iris.jpg>
+Package pdftex.def Info: iris.jpg used on input line 52.
+(pdftex.def)             Requested size: 441.65137pt x 342.2798pt.
+
+Overfull \hbox (51.65137pt too wide) in paragraph at lines 52--53
+[][] 
+ []
+
+[4 <./iris.jpg>] <mushroom.jpg, id=24, 1104.125pt x 622.325pt>
+File: mushroom.jpg Graphic file (type jpg)
+
+<use mushroom.jpg>
+Package pdftex.def Info: mushroom.jpg used on input line 62.
+(pdftex.def)             Requested size: 710.4283pt x 532.80559pt.
+
+Overfull \hbox (118.4283pt too wide) in paragraph at lines 62--63
+[][] 
+ []
+
+[5] [6 <./mushroom.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 83.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 23.
- [3]
-<retebayesiana.jpg, id=21, 338.76563pt x 263.48438pt>
-File: retebayesiana.jpg Graphic file (type jpg)
- <use retebayesiana.jpg>
-Package pdftex.def Info: retebayesiana.jpg used on input line 46.
-(pdftex.def)             Requested size: 370.51364pt x 236.80807pt.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 83.
 
-[4] [5 <./retebayesiana.jpg>] [6]
-<neurone.jpg, id=33, 205.9695pt x 138.39705pt>
+Overfull \hbox (8.60403pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (30.20425pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][] 
+ []
+
+[7] <performance.png, id=37, 462.528pt x 346.896pt>
+File: performance.png Graphic file (type png)
+ <use performance.png>
+Package pdftex.def Info: performance.png used on input line 113.
+(pdftex.def)             Requested size: 397.77338pt x 298.33003pt.
+
+Overfull \hbox (7.77338pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+[8 <./performance.png>] [9]) [10]
+\openout2 = `./Esercitazione2/esercitazione2.aux'.
+
+ (Esercitazione2/esercitazione2.tex [11
+
+
+
+]
+
+LaTeX Font Warning: Command \LARGE invalid in math mode on input line 17.
+
+[12] [13] <fitness.png, id=66, 462.528pt x 346.896pt>
+File: fitness.png Graphic file (type png)
+ <use fitness.png>
+Package pdftex.def Info: fitness.png used on input line 56.
+(pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
+
+[14 <./fitness.png>] [15]
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 84--85
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.7976pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][][] 
+ []
+
+<ConstraintGraph.jpg, id=74, 252.945pt x 257.96375pt>
+File: ConstraintGraph.jpg Graphic file (type jpg)
+
+<use ConstraintGraph.jpg>
+Package pdftex.def Info: ConstraintGraph.jpg used on input line 89.
+(pdftex.def)             Requested size: 177.06029pt x 180.57338pt.
+ [16] [17 <./ConstraintGraph.jpg>]
+<SearchTree.jpg, id=81, 528.97626pt x 690.58pt>
+File: SearchTree.jpg Graphic file (type jpg)
+ <use SearchTree.jpg>
+Package pdftex.def Info: SearchTree.jpg used on input line 108.
+(pdftex.def)             Requested size: 234.00136pt x 236.79619pt.
+ [18 <./SearchTree.jpg>] [19]) [20]
+\openout2 = `./Esercitazione3/esercitazione3.aux'.
+
+ (Esercitazione3/esercitazione3.tex [21
+
+
+
+] [22] [23]
+[24] <retebayesiana.jpg, id=106, 338.76563pt x 263.48438pt>
+File: retebayesiana.jpg Graphic file (type jpg)
+
+<use retebayesiana.jpg>
+Package pdftex.def Info: retebayesiana.jpg used on input line 69.
+(pdftex.def)             Requested size: 370.51364pt x 236.80807pt.
+ [25] [26 <./retebayesiana.jpg>] [27]
+<neurone.jpg, id=118, 205.9695pt x 138.39705pt>
 File: neurone.jpg Graphic file (type jpg)
  <use neurone.jpg>
-Package pdftex.def Info: neurone.jpg used on input line 65.
+Package pdftex.def Info: neurone.jpg used on input line 91.
 (pdftex.def)             Requested size: 311.99887pt x 177.60796pt.
 
-<RN-multilayer.jpg, id=34, 309.155pt x 334.24875pt>
+<RN-multilayer.jpg, id=119, 309.155pt x 334.24875pt>
 File: RN-multilayer.jpg Graphic file (type jpg)
  <use RN-multilayer.jpg>
-Package pdftex.def Info: RN-multilayer.jpg used on input line 70.
+Package pdftex.def Info: RN-multilayer.jpg used on input line 96.
 (pdftex.def)             Requested size: 185.49442pt x 200.55078pt.
 
-[7 <./neurone.jpg>] [8 <./RN-multilayer.jpg>] [9]
-<inizio.png, id=46, 912.40875pt x 514.3215pt>
+[28 <./neurone.jpg>] [29 <./RN-multilayer.jpg>]
+<inizio.png, id=126, 912.40875pt x 514.3215pt>
 File: inizio.png Graphic file (type png)
  <use inizio.png>
-Package pdftex.def Info: inizio.png used on input line 88.
+Package pdftex.def Info: inizio.png used on input line 115.
 (pdftex.def)             Requested size: 389.98918pt x 236.7948pt.
 
-<factorfilter0,1.png, id=48, 924.45375pt x 525.76425pt>
+<factorfilter0,1.png, id=127, 924.45375pt x 525.76425pt>
 File: factorfilter0,1.png Graphic file (type png)
 
 <use factorfilter0,1.png>
-Package pdftex.def Info: factorfilter0,1.png used on input line 94.
+Package pdftex.def Info: factorfilter0,1.png used on input line 121.
 (pdftex.def)             Requested size: 390.00296pt x 236.80031pt.
- <stock2.png, id=49, 914.81775pt x 516.7305pt>
+ <stock2.png, id=128, 914.81775pt x 516.7305pt>
 File: stock2.png Graphic file (type png)
 
 <use stock2.png>
-Package pdftex.def Info: stock2.png used on input line 97.
+Package pdftex.def Info: stock2.png used on input line 124.
 (pdftex.def)             Requested size: 389.99985pt x 236.80006pt.
-) [10 <./inizio.png>] [11 <./factorfilter0,1.png>] [12 <./stock2.png>] (ReportI
-A.aux (Esercitazione3/esercitazione3.aux)) ) 
+) [30] [31 <./inizio.png>] [32 <./factorfilter0,1.png>]
+[33 <./stock2.png>] (ReportIA.aux (Esercitazione1/esercitazione1.aux)
+(Esercitazione2/esercitazione2.aux) (Esercitazione3/esercitazione3.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8721 strings out of 493335
- 126716 string characters out of 3139254
- 242375 words of memory out of 3000000
- 12010 multiletter control sequences out of 15000+200000
- 55973 words of font info for 76 fonts, out of 3000000 for 9000
+ 9466 strings out of 493335
+ 134979 string characters out of 3139254
+ 265587 words of memory out of 3000000
+ 12683 multiletter control sequences out of 15000+200000
+ 77817 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,38p,2080b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/
-enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
-athsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program
- Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9
-/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ReportIA.pdf (12 pages, 651303 bytes).
+ 41i,8n,43p,1788b,1443s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmt
+t12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on ReportIA.pdf (33 pages, 923295 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 17439 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 25661 words of extra memory for PDF output out of 29859 (max. 10000000)
 
